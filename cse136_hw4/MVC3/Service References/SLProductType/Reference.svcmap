@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8b6669b3-9052-48eb-9bca-73641dafc428" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51845/SLProductType.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SLProductType.disco" MetadataType="Disco" ID="1245dfd3-a965-4271-bb45-0f9c09d8b2cb" SourceId="1" SourceUrl="http://localhost:51845/SLProductType.svc?disco" />
+    <MetadataFile FileName="SLProductType.xsd" MetadataType="Schema" ID="f8b08a1f-fe9c-4deb-9d1f-fab05f239d2f" SourceId="1" SourceUrl="http://localhost:51845/SLProductType.svc?xsd=xsd0" />
+    <MetadataFile FileName="SLProductType.wsdl" MetadataType="Wsdl" ID="f26c7bd7-9bc8-4400-9378-eff93b6a42f0" SourceId="1" SourceUrl="http://localhost:51845/SLProductType.svc?wsdl" />
+    <MetadataFile FileName="SLProductType1.xsd" MetadataType="Schema" ID="42dd29b3-aeaf-42ad-b985-070e06ef9b95" SourceId="1" SourceUrl="http://localhost:51845/SLProductType.svc?xsd=xsd2" />
+    <MetadataFile FileName="SLProductType2.xsd" MetadataType="Schema" ID="4a349192-8ebf-4afc-af3f-cf687b2a17b9" SourceId="1" SourceUrl="http://localhost:51845/SLProductType.svc?xsd=xsd3" />
+    <MetadataFile FileName="SLProductType3.xsd" MetadataType="Schema" ID="b01c1fae-5ebc-4363-afdd-755190c16766" SourceId="1" SourceUrl="http://localhost:51845/SLProductType.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b82ead94-6bcb-426d-b8bb-dbd28a4bed93" name="Louis@LOUIS-HP 2012-09-04 14:09:30" runUser="Louis-HP\Louis" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="53e514f0-4a59-4535-81eb-4649f33ffbf9">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Louis_LOUIS-HP 2012-09-04 14_09_30">
+      <DeploymentItem filename="C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\DomainModel\bin\Debug\DomainModel.dll" />
+      <DeploymentItem filename="C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\cse136\bin\Debug\cse136.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-04T14:09:30.2008622-07:00" queuing="2012-09-04T14:09:32.7090057-07:00" start="2012-09-04T14:09:32.9570199-07:00" finish="2012-09-04T14:09:36.4122175-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ReadAllPVTestWithCond" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\daltest\bin\debug\daltest.dll" id="72127b69-612a-5069-7ee5-24e2fea4d757">
+      <Execution id="f0d79ff1-6da3-4ac7-b7c6-0b928e87d2e7" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/DALTest/bin/Debug/DALTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DALTest.DALProductVariationInfoTest, DALTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadAllPVTestWithCond" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="72127b69-612a-5069-7ee5-24e2fea4d757" executionId="f0d79ff1-6da3-4ac7-b7c6-0b928e87d2e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f0d79ff1-6da3-4ac7-b7c6-0b928e87d2e7" testId="72127b69-612a-5069-7ee5-24e2fea4d757" testName="ReadAllPVTestWithCond" computerName="LOUIS-HP" duration="00:00:00.2252630" startTime="2012-09-04T14:09:33.2030339-07:00" endTime="2012-09-04T14:09:36.1952051-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0d79ff1-6da3-4ac7-b7c6-0b928e87d2e7">
+    </UnitTestResult>
+  </Results>
+</TestRun>

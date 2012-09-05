@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fbb8e2b3-b722-4db5-84dd-afce7882481e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51845/SLProductVariation.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SLProductVariation.xsd" MetadataType="Schema" ID="4eb51119-dd0f-408e-8d88-d9c1912f5e83" SourceId="1" SourceUrl="http://localhost:51845/SLProductVariation.svc?xsd=xsd1" />
+    <MetadataFile FileName="SLProductVariation1.xsd" MetadataType="Schema" ID="56cdaf0a-2839-4c84-88d9-49d6197d652c" SourceId="1" SourceUrl="http://localhost:51845/SLProductVariation.svc?xsd=xsd0" />
+    <MetadataFile FileName="SLProductVariation2.xsd" MetadataType="Schema" ID="d67cc9be-4206-4e58-9a4f-d45940ac6532" SourceId="1" SourceUrl="http://localhost:51845/SLProductVariation.svc?xsd=xsd3" />
+    <MetadataFile FileName="SLProductVariation3.xsd" MetadataType="Schema" ID="3e54ac4a-4cdb-4f03-b2f7-8802f361519e" SourceId="1" SourceUrl="http://localhost:51845/SLProductVariation.svc?xsd=xsd2" />
+    <MetadataFile FileName="SLProductVariation.wsdl" MetadataType="Wsdl" ID="08a1b727-79bc-4d57-bfd5-5bba4d7fda27" SourceId="1" SourceUrl="http://localhost:51845/SLProductVariation.svc?wsdl" />
+    <MetadataFile FileName="SLProductVariation.disco" MetadataType="Disco" ID="e3af9ae8-4ba9-4170-a216-b40fe5fb0b74" SourceId="1" SourceUrl="http://localhost:51845/SLProductVariation.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6215ff03-4e24-40ae-b894-8276547c3184" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51845/SLProductColor.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SLProductColor.disco" MetadataType="Disco" ID="466f2bfc-3de3-4912-ae60-7faa38f33688" SourceId="1" SourceUrl="http://localhost:51845/SLProductColor.svc?disco" />
+    <MetadataFile FileName="SLProductColor.xsd" MetadataType="Schema" ID="18f0b060-5fe5-4a9c-bb89-7d9b2aa7a524" SourceId="1" SourceUrl="http://localhost:51845/SLProductColor.svc?xsd=xsd3" />
+    <MetadataFile FileName="SLProductColor1.xsd" MetadataType="Schema" ID="4c77f036-e34e-4b95-aa95-f22b8c438dce" SourceId="1" SourceUrl="http://localhost:51845/SLProductColor.svc?xsd=xsd2" />
+    <MetadataFile FileName="SLProductColor2.xsd" MetadataType="Schema" ID="527edfa0-9af6-4ec7-afcb-72fa9569d317" SourceId="1" SourceUrl="http://localhost:51845/SLProductColor.svc?xsd=xsd1" />
+    <MetadataFile FileName="SLProductColor3.xsd" MetadataType="Schema" ID="bb80ddeb-11a9-44c1-ba9b-1c67d64f6e79" SourceId="1" SourceUrl="http://localhost:51845/SLProductColor.svc?xsd=xsd0" />
+    <MetadataFile FileName="SLProductColor.wsdl" MetadataType="Wsdl" ID="eb69ffec-5959-4f0c-bdfe-9f02400f96f1" SourceId="1" SourceUrl="http://localhost:51845/SLProductColor.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

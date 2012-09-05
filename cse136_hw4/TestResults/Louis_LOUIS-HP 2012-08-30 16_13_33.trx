@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="58bc2d85-b021-4a2a-bc13-3664a8539557" name="Louis@LOUIS-HP 2012-08-30 16:13:33" runUser="Louis-HP\Louis" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="53e514f0-4a59-4535-81eb-4649f33ffbf9">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Louis_LOUIS-HP 2012-08-30 16_13_33">
+      <DeploymentItem filename="C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\DomainModel\bin\Debug\DomainModel.dll" />
+      <DeploymentItem filename="C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\cse136\bin\Debug\cse136.dll" />
+      <DeploymentItem filename="C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BL\bin\Debug\BL.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-30T16:13:33.7976092-07:00" queuing="2012-08-30T16:13:34.9256738-07:00" start="2012-08-30T16:13:35.0506809-07:00" finish="2012-08-30T16:13:36.8597844-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="58" executed="58" passed="4" error="0" failed="54" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ProductVariationDeleteErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="a7d7b29b-200e-e950-acdb-f74fb0c8329a">
+      <Execution id="6b702b97-718d-4eaa-ae46-58a125b5e405" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductVariationTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductVariationDeleteErrorTest" />
+    </UnitTest>
+    <UnitTest name="BrandUpdateErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="e838b5ac-738c-c97e-c3d6-f1fb0daa2370">
+      <Execution id="fdf1800d-4d62-4ae9-90d5-0edde205c493" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLBrandTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BrandUpdateErrorTest" />
+    </UnitTest>
+    <UnitTest name="CreateProductTypeNullErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="7c829374-b2b7-a64c-0106-8a1c527f9eee">
+      <Execution id="466e024a-2002-48cb-991d-edb6265c7b47" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductTypeTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateProductTypeNullErrorTest" />
+    </UnitTest>
+    <UnitTest name="CreateUserTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="158d2d91-82ad-445a-f6d1-cade85604603">
+      <Execution id="f3e0bb24-e2c2-4ee4-94aa-0274bd4875ac" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLUserTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateUserTest" />
+    </UnitTest>
+    <UnitTest name="CreateProductCuttingNullErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="bdcd5694-6f47-8e9c-4f0a-b5a3d00cbbdc">
+      <Execution id="b914ff3f-217b-4273-9902-fd270416ca0a" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductCuttingTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateProductCuttingNullErrorTest" />
+    </UnitTest>
+    <UnitTest name="CreateBrandTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="f7826c58-01e2-4c82-f47f-08228e891502">
+      <Execution id="65342902-5486-4b3d-bb51-3f9f85bf2a05" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLBrandTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateBrandTest" />
+    </UnitTest>
+    <UnitTest name="UpdateOrderTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="73a2a41e-edaf-9b15-53d0-e9a56dfdd209">
+      <Execution id="b33beda0-0268-4a74-948d-04637ba2ac42" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLOrdersTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateOrderTest" />
+    </UnitTest>
+    <UnitTest name="UpdateProductTypeTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="749e2125-91f3-366c-3cc9-5d757c5d89fc">
+      <Execution id="3197457c-5348-4904-b7ae-d63a55182eb4" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductTypeTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateProductTypeTest" />
+    </UnitTest>
+    <UnitTest name="CreatePVTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="32befc5b-2805-679f-e132-a2c900e50a08">
+      <Execution id="607f8763-f3c0-4867-9209-b050e5f32fd3" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductVariationTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreatePVTest" />
+    </UnitTest>
+    <UnitTest name="CreateProductTypeErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="bfb23467-9ed6-2af2-a378-dc1e9bbf5b26">
+      <Execution id="34b11b0a-eff4-46cb-9aa4-ebae5a0497b6" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductTypeTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateProductTypeErrorTest" />
+    </UnitTest>
+    <UnitTest name="ProductUpdateErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="c6b026e9-3960-4229-9874-a43b265d5ac5">
+      <Execution id="4443cd4d-7b55-4a6c-9787-4d644eb1fb24" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductUpdateErrorTest" />
+    </UnitTest>
+    <UnitTest name="ProductCuttingUpdateErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="2de277d9-37a5-c97d-c930-1d6c85ec007a">
+      <Execution id="c778eace-5eda-45b0-b187-54ae791aa966" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductCuttingTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductCuttingUpdateErrorTest" />
+    </UnitTest>
+    <UnitTest name="UpdateProductVariationInfoTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="17a47e80-72b2-0437-6c34-884341a72cbe">
+      <Execution id="24c94191-2f03-413e-8288-3d7aa70a50ba" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductVariationTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateProductVariationInfoTest" />
+    </UnitTest>
+    <UnitTest name="CreateProductColorErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="1381d89d-e61a-d0f1-323e-009145c998cd">
+      <Execution id="3d65884f-9ca5-4c7e-8734-731d4ccdada9" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductColorTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateProductColorErrorTest" />
+    </UnitTest>
+    <UnitTest name="ProductCuttingReadErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="b22f890b-2fb2-8bc9-6072-6c13741d1a72">
+      <Execution id="67384de1-61bc-4a55-8a32-ad0d9dc5e0cd" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductCuttingTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductCuttingReadErrorTest" />
+    </UnitTest>
+    <UnitTest name="UpdateOrderItemTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="9ab46af0-2743-cf89-1d6c-179a016f19ed">
+      <Execution id="adfb52ba-1e33-41ea-a96e-7231c425aa0f" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLOrderItemTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateOrderItemTest" />
+    </UnitTest>
+    <UnitTest name="DeleteOrderTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="493a7605-2b5d-6b34-77c0-38590edb775c">
+      <Execution id="b1acd9dd-74cf-46f5-a934-fc1422b55a3d" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLOrdersTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteOrderTest" />
+    </UnitTest>
+    <UnitTest name="CreateProductColorNullErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="72a23555-32b2-8606-9cd7-3ffb7f93b94d">
+      <Execution id="c1f4fa5d-4f9c-4972-b666-f124ef8e9726" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductColorTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateProductColorNullErrorTest" />
+    </UnitTest>
+    <UnitTest name="CreateProductColorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="306047c5-8044-ee12-21be-5249fd0ab8bc">
+      <Execution id="3abdb368-ad4f-4506-b6f8-ee8328931bc7" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductColorTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateProductColorTest" />
+    </UnitTest>
+    <UnitTest name="CreateProductErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="4984de8b-0f11-84fe-96e4-b08c00e8db25">
+      <Execution id="369f90a6-4c5d-4ecd-bd79-5cedfbc0b556" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateProductErrorTest" />
+    </UnitTest>
+    <UnitTest name="ReadUserTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="f3f8f937-4c7c-939b-ae77-fc501524ffbb">
+      <Execution id="9f9f03bc-132e-4a77-88b6-26969bb73707" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLUserTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadUserTest" />
+    </UnitTest>
+    <UnitTest name="ProductColorUpdateErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="9cf39b8e-04c2-b861-736b-953b0b495874">
+      <Execution id="255a4be8-dde1-4ec9-ab3b-af1701360a4d" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductColorTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductColorUpdateErrorTest" />
+    </UnitTest>
+    <UnitTest name="UpdateProductCuttingTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="ad76f5b9-eef6-7da3-02e0-bcb403ffa630">
+      <Execution id="6e589a74-a31d-45c6-8d03-bd36b2d38ce5" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductCuttingTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateProductCuttingTest" />
+    </UnitTest>
+    <UnitTest name="ReadAllProductTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="0a828938-db60-83a2-bc54-b0d9d2623a89">
+      <Execution id="a81c509a-d6fb-4215-b626-838db5ff61ff" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadAllProductTest" />
+    </UnitTest>
+    <UnitTest name="ReadOrderItemsTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="2ce09c11-f985-d871-f593-05b3d3bf012b">
+      <Execution id="4fec8d09-3a95-49aa-856c-caa5cc60514d" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLOrderItemTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadOrderItemsTest" />
+    </UnitTest>
+    <UnitTest name="UpdateCustomerTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="ec9f8ac9-bbad-7904-9e27-a42604c75864">
+      <Execution id="48f9ecf4-19c0-45f0-b3aa-1e5e6909aa24" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLCustomerTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateCustomerTest" />
+    </UnitTest>
+    <UnitTest name="ReadCustomerListTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="a1263318-9a7b-fd6c-9b9f-3e717746b915">
+      <Execution id="105d11e9-d804-4afb-a185-74dd8b9bdfc9" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLCustomerTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadCustomerListTest" />
+    </UnitTest>
+    <UnitTest name="CreateBrandNullErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="1f1e50dc-302d-5d54-d1b6-de3ac7cc0579">
+      <Execution id="b48729c9-23f2-4178-be92-2b2097af3b20" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLBrandTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateBrandNullErrorTest" />
+    </UnitTest>
+    <UnitTest name="CreateOrderTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="fe9a4a1b-3bca-343b-6c6c-7b9a9abb113f">
+      <Execution id="abbfe6b9-2024-402d-9ba2-099a8bd2fe11" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLOrdersTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateOrderTest" />
+    </UnitTest>
+    <UnitTest name="UpdateUserTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="c64b361e-3205-0c95-c097-86cdfb42cda1">
+      <Execution id="1eac515e-3938-462f-bb77-2c183a1e8864" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLUserTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateUserTest" />
+    </UnitTest>
+    <UnitTest name="ReadAllProductTypeTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="527f0874-7efa-38fb-4cdb-7845b6fdc52f">
+      <Execution id="ee8ed94b-4b6e-4957-9591-644bc8788e8e" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductTypeTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadAllProductTypeTest" />
+    </UnitTest>
+    <UnitTest name="ProductTypeReadErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="87cd62b0-6032-0378-4d78-97f7b2cf2151">
+      <Execution id="15a281c1-6b50-4df2-a8fb-a90e176ee4d8" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductTypeTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductTypeReadErrorTest" />
+    </UnitTest>
+    <UnitTest name="ProductVariationUpdateErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="8ddb55d2-cc76-8371-0cab-349758d0faba">
+      <Execution id="60ef8b09-a3fa-4092-b8f1-0e6cbbb88c34" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductVariationTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductVariationUpdateErrorTest" />
+    </UnitTest>
+    <UnitTest name="DeleteOrderItemTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="886bee7d-d334-dfe7-c238-7453c4d49aba">
+      <Execution id="48335d32-c526-4efc-8f1f-283cef2da584" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLOrderItemTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteOrderItemTest" />
+    </UnitTest>
+    <UnitTest name="CreateBrandErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="8440b3dd-4629-ecb3-bea3-283361475284">
+      <Execution id="b326b8aa-2d17-4f37-aca6-272d868b637d" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLBrandTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateBrandErrorTest" />
+    </UnitTest>
+    <UnitTest name="ReadOrderTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="1b544148-93f6-a7fe-ec0a-e48ebd3d2844">
+      <Execution id="2dba556c-ad34-4675-93a6-adbb74c63994" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLOrdersTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadOrderTest" />
+    </UnitTest>
+    <UnitTest name="CreateCustomerTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="f5116b98-dd2f-50c2-839b-71e219a68e4d">
+      <Execution id="8880df2d-659a-4499-83d8-6cc7d5c106eb" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLCustomerTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateCustomerTest" />
+    </UnitTest>
+    <UnitTest name="DeleteProductVariationInfoTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="51e7e7bf-6ccc-542c-0d91-d03ec1c8332e">
+      <Execution id="c2294fe4-eb10-4959-b95b-73464fc8c9cf" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductVariationTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteProductVariationInfoTest" />
+    </UnitTest>
+    <UnitTest name="CreateProductVariationErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="2c820968-7c91-03d3-a299-ef437a4adae9">
+      <Execution id="7ec4ff2d-33ff-417a-befa-1b34f5d0572c" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductVariationTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateProductVariationErrorTest" />
+    </UnitTest>
+    <UnitTest name="UpdateProductTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="fceb51c8-60ab-9dba-9bc5-68eec453d8bc">
+      <Execution id="612a1032-5f66-4ed1-a542-e1f1f86af2f6" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateProductTest" />
+    </UnitTest>
+    <UnitTest name="BrandReadErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="cddde496-20c6-4b8e-d5cd-072a15f2fccb">
+      <Execution id="6e3c5b9a-96b6-4ca5-a450-79ff1a1b3f5d" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLBrandTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BrandReadErrorTest" />
+    </UnitTest>
+    <UnitTest name="ReadAllBrandTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="44c316ef-e570-09f1-f2c1-54180c893f98">
+      <Execution id="ffe92f46-e164-463a-ad9c-23b668edbc07" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLBrandTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadAllBrandTest" />
+    </UnitTest>
+    <UnitTest name="CreateProductNullErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="d2636e01-07d3-8d97-7e57-ab6725f5e972">
+      <Execution id="af21a4ea-8985-457c-a044-3ff5114d0ea9" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateProductNullErrorTest" />
+    </UnitTest>
+    <UnitTest name="ReadAllProductCuttingTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="6567eec0-603e-0c1c-b63c-38e9a20c4df4">
+      <Execution id="29378cc1-df6b-4ed3-a9b6-058db53e9587" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductCuttingTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadAllProductCuttingTest" />
+    </UnitTest>
+    <UnitTest name="CreateProductTypeTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="1e60bab5-dba5-e699-f6b8-0811bd4de6e3">
+      <Execution id="578a0d04-c0a0-4e4d-a6c3-2e12b3ebb872" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductTypeTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateProductTypeTest" />
+    </UnitTest>
+    <UnitTest name="ReadAllProductColorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="53956050-dfb2-bc6f-a53b-1e274204bdd8">
+      <Execution id="1ac8dc41-23b7-4fbf-ab2c-1c3464f635c8" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductColorTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadAllProductColorTest" />
+    </UnitTest>
+    <UnitTest name="CreateOrderItemTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="cc943512-d061-8a99-3a4a-22ce9199b189">
+      <Execution id="73f66f13-805e-4741-b6a5-babd61e0aa93" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLOrderItemTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateOrderItemTest" />
+    </UnitTest>
+    <UnitTest name="ProductReadErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="a91e9ed3-5646-12d6-93c6-af2db48c7e59">
+      <Execution id="9061cf4b-e9c5-48db-aeab-bd6c1227c131" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductReadErrorTest" />
+    </UnitTest>
+    <UnitTest name="ProductColorReadErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="a371c641-f9b0-857d-8d7a-ba50f3ebff43">
+      <Execution id="7adfc043-1eaa-4906-90f7-2e40c5aa7448" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductColorTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductColorReadErrorTest" />
+    </UnitTest>
+    <UnitTest name="DeleteUserTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="924a726f-7065-3789-c891-f57af25f387b">
+      <Execution id="a0e07a42-1a55-4287-85fd-b95a9aeec977" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLUserTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteUserTest" />
+    </UnitTest>
+    <UnitTest name="UpdateBrandTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="6724fe7d-3a6e-82e1-5e9c-bfae58cb851f">
+      <Execution id="f675e5f5-616d-4783-9e24-e734c049d643" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLBrandTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateBrandTest" />
+    </UnitTest>
+    <UnitTest name="ReadAllPVTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="83def0be-13ed-eb0c-cf34-39cb5d72d47e">
+      <Execution id="fae7b3ba-4c01-4bb0-98ad-3c405457daf3" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductVariationTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadAllPVTest" />
+    </UnitTest>
+    <UnitTest name="CreateProductTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="a5af5316-0907-aef9-72aa-1e7958fc3974">
+      <Execution id="ea37dfc1-189b-4914-8a4b-3aea184a8290" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateProductTest" />
+    </UnitTest>
+    <UnitTest name="CreateProductCuttingErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="906cdd9a-e41c-b869-1786-a4ffe476ad69">
+      <Execution id="b1e5ba37-7528-4434-9a0e-43dc9af15123" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductCuttingTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateProductCuttingErrorTest" />
+    </UnitTest>
+    <UnitTest name="ProductTypeUpdateErrorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="c67b2499-e7a4-2b19-624b-77fbc4aeac92">
+      <Execution id="48eb2b9a-519d-48d6-abd9-4e2b7d74eba1" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductTypeTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductTypeUpdateErrorTest" />
+    </UnitTest>
+    <UnitTest name="CreateProductCuttingTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="4068bac0-9c67-8bcf-fe66-d8581e88d686">
+      <Execution id="d559193b-ed29-486a-8e94-d8ca68f27b2c" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductCuttingTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateProductCuttingTest" />
+    </UnitTest>
+    <UnitTest name="UpdateProductColorTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="dc348301-aaee-9d57-e85e-e7bdc8bf9c91">
+      <Execution id="3e0c36cc-8f04-4511-8166-901a353c161f" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLProductColorTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateProductColorTest" />
+    </UnitTest>
+    <UnitTest name="ReadOrderItemTest" storage="c:\users\louis\desktop\cs136_hw4\cse136_hw4\bltest\bin\debug\bltest.dll" id="cb576a10-2d92-ab9f-8fcd-b9bd7c8e4579">
+      <Execution id="4a1babdc-1d72-4767-82f4-2d3d0f9a9d87" />
+      <TestMethod codeBase="C:/Users/Louis/Desktop/cs136_hw4/cse136_hw4/BLTest/bin/Debug/BLTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BLTest.BLOrderItemTest, BLTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadOrderItemTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0a828938-db60-83a2-bc54-b0d9d2623a89" executionId="a81c509a-d6fb-4215-b626-838db5ff61ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1381d89d-e61a-d0f1-323e-009145c998cd" executionId="3d65884f-9ca5-4c7e-8734-731d4ccdada9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="158d2d91-82ad-445a-f6d1-cade85604603" executionId="f3e0bb24-e2c2-4ee4-94aa-0274bd4875ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17a47e80-72b2-0437-6c34-884341a72cbe" executionId="24c94191-2f03-413e-8288-3d7aa70a50ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b544148-93f6-a7fe-ec0a-e48ebd3d2844" executionId="2dba556c-ad34-4675-93a6-adbb74c63994" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e60bab5-dba5-e699-f6b8-0811bd4de6e3" executionId="578a0d04-c0a0-4e4d-a6c3-2e12b3ebb872" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f1e50dc-302d-5d54-d1b6-de3ac7cc0579" executionId="b48729c9-23f2-4178-be92-2b2097af3b20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c820968-7c91-03d3-a299-ef437a4adae9" executionId="7ec4ff2d-33ff-417a-befa-1b34f5d0572c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ce09c11-f985-d871-f593-05b3d3bf012b" executionId="4fec8d09-3a95-49aa-856c-caa5cc60514d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2de277d9-37a5-c97d-c930-1d6c85ec007a" executionId="c778eace-5eda-45b0-b187-54ae791aa966" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="306047c5-8044-ee12-21be-5249fd0ab8bc" executionId="3abdb368-ad4f-4506-b6f8-ee8328931bc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32befc5b-2805-679f-e132-a2c900e50a08" executionId="607f8763-f3c0-4867-9209-b050e5f32fd3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4068bac0-9c67-8bcf-fe66-d8581e88d686" executionId="d559193b-ed29-486a-8e94-d8ca68f27b2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44c316ef-e570-09f1-f2c1-54180c893f98" executionId="ffe92f46-e164-463a-ad9c-23b668edbc07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="493a7605-2b5d-6b34-77c0-38590edb775c" executionId="b1acd9dd-74cf-46f5-a934-fc1422b55a3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4984de8b-0f11-84fe-96e4-b08c00e8db25" executionId="369f90a6-4c5d-4ecd-bd79-5cedfbc0b556" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51e7e7bf-6ccc-542c-0d91-d03ec1c8332e" executionId="c2294fe4-eb10-4959-b95b-73464fc8c9cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="527f0874-7efa-38fb-4cdb-7845b6fdc52f" executionId="ee8ed94b-4b6e-4957-9591-644bc8788e8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53956050-dfb2-bc6f-a53b-1e274204bdd8" executionId="1ac8dc41-23b7-4fbf-ab2c-1c3464f635c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6567eec0-603e-0c1c-b63c-38e9a20c4df4" executionId="29378cc1-df6b-4ed3-a9b6-058db53e9587" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6724fe7d-3a6e-82e1-5e9c-bfae58cb851f" executionId="f675e5f5-616d-4783-9e24-e734c049d643" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72a23555-32b2-8606-9cd7-3ffb7f93b94d" executionId="c1f4fa5d-4f9c-4972-b666-f124ef8e9726" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73a2a41e-edaf-9b15-53d0-e9a56dfdd209" executionId="b33beda0-0268-4a74-948d-04637ba2ac42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="749e2125-91f3-366c-3cc9-5d757c5d89fc" executionId="3197457c-5348-4904-b7ae-d63a55182eb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c829374-b2b7-a64c-0106-8a1c527f9eee" executionId="466e024a-2002-48cb-991d-edb6265c7b47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83def0be-13ed-eb0c-cf34-39cb5d72d47e" executionId="fae7b3ba-4c01-4bb0-98ad-3c405457daf3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8440b3dd-4629-ecb3-bea3-283361475284" executionId="b326b8aa-2d17-4f37-aca6-272d868b637d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87cd62b0-6032-0378-4d78-97f7b2cf2151" executionId="15a281c1-6b50-4df2-a8fb-a90e176ee4d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="886bee7d-d334-dfe7-c238-7453c4d49aba" executionId="48335d32-c526-4efc-8f1f-283cef2da584" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ddb55d2-cc76-8371-0cab-349758d0faba" executionId="60ef8b09-a3fa-4092-b8f1-0e6cbbb88c34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="906cdd9a-e41c-b869-1786-a4ffe476ad69" executionId="b1e5ba37-7528-4434-9a0e-43dc9af15123" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="924a726f-7065-3789-c891-f57af25f387b" executionId="a0e07a42-1a55-4287-85fd-b95a9aeec977" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ab46af0-2743-cf89-1d6c-179a016f19ed" executionId="adfb52ba-1e33-41ea-a96e-7231c425aa0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9cf39b8e-04c2-b861-736b-953b0b495874" executionId="255a4be8-dde1-4ec9-ab3b-af1701360a4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1263318-9a7b-fd6c-9b9f-3e717746b915" executionId="105d11e9-d804-4afb-a185-74dd8b9bdfc9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a371c641-f9b0-857d-8d7a-ba50f3ebff43" executionId="7adfc043-1eaa-4906-90f7-2e40c5aa7448" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5af5316-0907-aef9-72aa-1e7958fc3974" executionId="ea37dfc1-189b-4914-8a4b-3aea184a8290" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7d7b29b-200e-e950-acdb-f74fb0c8329a" executionId="6b702b97-718d-4eaa-ae46-58a125b5e405" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a91e9ed3-5646-12d6-93c6-af2db48c7e59" executionId="9061cf4b-e9c5-48db-aeab-bd6c1227c131" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad76f5b9-eef6-7da3-02e0-bcb403ffa630" executionId="6e589a74-a31d-45c6-8d03-bd36b2d38ce5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b22f890b-2fb2-8bc9-6072-6c13741d1a72" executionId="67384de1-61bc-4a55-8a32-ad0d9dc5e0cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bdcd5694-6f47-8e9c-4f0a-b5a3d00cbbdc" executionId="b914ff3f-217b-4273-9902-fd270416ca0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfb23467-9ed6-2af2-a378-dc1e9bbf5b26" executionId="34b11b0a-eff4-46cb-9aa4-ebae5a0497b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c64b361e-3205-0c95-c097-86cdfb42cda1" executionId="1eac515e-3938-462f-bb77-2c183a1e8864" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c67b2499-e7a4-2b19-624b-77fbc4aeac92" executionId="48eb2b9a-519d-48d6-abd9-4e2b7d74eba1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6b026e9-3960-4229-9874-a43b265d5ac5" executionId="4443cd4d-7b55-4a6c-9787-4d644eb1fb24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb576a10-2d92-ab9f-8fcd-b9bd7c8e4579" executionId="4a1babdc-1d72-4767-82f4-2d3d0f9a9d87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc943512-d061-8a99-3a4a-22ce9199b189" executionId="73f66f13-805e-4741-b6a5-babd61e0aa93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cddde496-20c6-4b8e-d5cd-072a15f2fccb" executionId="6e3c5b9a-96b6-4ca5-a450-79ff1a1b3f5d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2636e01-07d3-8d97-7e57-ab6725f5e972" executionId="af21a4ea-8985-457c-a044-3ff5114d0ea9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc348301-aaee-9d57-e85e-e7bdc8bf9c91" executionId="3e0c36cc-8f04-4511-8166-901a353c161f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e838b5ac-738c-c97e-c3d6-f1fb0daa2370" executionId="fdf1800d-4d62-4ae9-90d5-0edde205c493" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec9f8ac9-bbad-7904-9e27-a42604c75864" executionId="48f9ecf4-19c0-45f0-b3aa-1e5e6909aa24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3f8f937-4c7c-939b-ae77-fc501524ffbb" executionId="9f9f03bc-132e-4a77-88b6-26969bb73707" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5116b98-dd2f-50c2-839b-71e219a68e4d" executionId="8880df2d-659a-4499-83d8-6cc7d5c106eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7826c58-01e2-4c82-f47f-08228e891502" executionId="65342902-5486-4b3d-bb51-3f9f85bf2a05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fceb51c8-60ab-9dba-9bc5-68eec453d8bc" executionId="612a1032-5f66-4ed1-a542-e1f1f86af2f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe9a4a1b-3bca-343b-6c6c-7b9a9abb113f" executionId="abbfe6b9-2024-402d-9ba2-099a8bd2fe11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a81c509a-d6fb-4215-b626-838db5ff61ff" testId="0a828938-db60-83a2-bc54-b0d9d2623a89" testName="ReadAllProductTest" computerName="LOUIS-HP" duration="00:00:00.2053582" startTime="2012-08-30T16:13:35.2016896-07:00" endTime="2012-08-30T16:13:35.9077299-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a81c509a-d6fb-4215-b626-838db5ff61ff">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductTest.ReadAllProductTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductTest.cs:line 80
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3d65884f-9ca5-4c7e-8734-731d4ccdada9" testId="1381d89d-e61a-d0f1-323e-009145c998cd" testName="CreateProductColorErrorTest" computerName="LOUIS-HP" duration="00:00:00.0101259" startTime="2012-08-30T16:13:35.9107301-07:00" endTime="2012-08-30T16:13:35.9267310-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d65884f-9ca5-4c7e-8734-731d4ccdada9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductColorTest.CreateProductColorErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductColorTest.cs:line 130
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f3e0bb24-e2c2-4ee4-94aa-0274bd4875ac" testId="158d2d91-82ad-445a-f6d1-cade85604603" testName="CreateUserTest" computerName="LOUIS-HP" duration="00:00:00.0171891" startTime="2012-08-30T16:13:35.9317313-07:00" endTime="2012-08-30T16:13:35.9537326-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3e0bb24-e2c2-4ee4-94aa-0274bd4875ac">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at BLTest.BLUserTest.CreateUserTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLUserTest.cs:line 135
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="24c94191-2f03-413e-8288-3d7aa70a50ba" testId="17a47e80-72b2-0437-6c34-884341a72cbe" testName="UpdateProductVariationInfoTest" computerName="LOUIS-HP" duration="00:00:00.0146890" startTime="2012-08-30T16:13:35.9567327-07:00" endTime="2012-08-30T16:13:35.9767339-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24c94191-2f03-413e-8288-3d7aa70a50ba">
+      <Output>
+        <DebugTrace>REACHED here is the id: -1
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;-1&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductVariationTest.UpdateProductVariationInfoTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductVariationTest.cs:line 136
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2dba556c-ad34-4675-93a6-adbb74c63994" testId="1b544148-93f6-a7fe-ec0a-e48ebd3d2844" testName="ReadOrderTest" computerName="LOUIS-HP" duration="00:00:00.0093348" startTime="2012-08-30T16:13:35.9797341-07:00" endTime="2012-08-30T16:13:35.9947349-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2dba556c-ad34-4675-93a6-adbb74c63994">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at BLTest.BLOrdersTest.ReadOrderTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLOrdersTest.cs:line 195
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="578a0d04-c0a0-4e4d-a6c3-2e12b3ebb872" testId="1e60bab5-dba5-e699-f6b8-0811bd4de6e3" testName="CreateProductTypeTest" computerName="LOUIS-HP" duration="00:00:00.0097734" startTime="2012-08-30T16:13:35.9977351-07:00" endTime="2012-08-30T16:13:36.0127359-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="578a0d04-c0a0-4e4d-a6c3-2e12b3ebb872">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreNotEqual failed. Expected any value except:&lt;-1&gt;. Actual:&lt;-1&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductTypeTest.CreateProductTypeTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductTypeTest.cs:line 59
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b48729c9-23f2-4178-be92-2b2097af3b20" testId="1f1e50dc-302d-5d54-d1b6-de3ac7cc0579" testName="CreateBrandNullErrorTest" computerName="LOUIS-HP" duration="00:00:00.0013819" startTime="2012-08-30T16:13:36.0157361-07:00" endTime="2012-08-30T16:13:36.0217365-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b48729c9-23f2-4178-be92-2b2097af3b20">
+    </UnitTestResult>
+    <UnitTestResult executionId="7ec4ff2d-33ff-417a-befa-1b34f5d0572c" testId="2c820968-7c91-03d3-a299-ef437a4adae9" testName="CreateProductVariationErrorTest" computerName="LOUIS-HP" duration="00:00:00.0176197" startTime="2012-08-30T16:13:36.0257367-07:00" endTime="2012-08-30T16:13:36.0477379-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ec4ff2d-33ff-417a-befa-1b34f5d0572c">
+      <Output>
+        <DebugTrace>THIS IS THE PID:1
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;8&gt;. Actual:&lt;19&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductVariationTest.CreateProductVariationErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductVariationTest.cs:line 202
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4fec8d09-3a95-49aa-856c-caa5cc60514d" testId="2ce09c11-f985-d871-f593-05b3d3bf012b" testName="ReadOrderItemsTest" computerName="LOUIS-HP" duration="00:00:00.0099006" startTime="2012-08-30T16:13:36.0507381-07:00" endTime="2012-08-30T16:13:36.0657390-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fec8d09-3a95-49aa-856c-caa5cc60514d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at BLTest.BLOrderItemTest.ReadOrderItemsTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLOrderItemTest.cs:line 224
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c778eace-5eda-45b0-b187-54ae791aa966" testId="2de277d9-37a5-c97d-c930-1d6c85ec007a" testName="ProductCuttingUpdateErrorTest" computerName="LOUIS-HP" duration="00:00:00.0058075" startTime="2012-08-30T16:13:36.0687391-07:00" endTime="2012-08-30T16:13:36.0797398-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c778eace-5eda-45b0-b187-54ae791aa966">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductCuttingTest.ProductCuttingUpdateErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductCuttingTest.cs:line 160
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3abdb368-ad4f-4506-b6f8-ee8328931bc7" testId="306047c5-8044-ee12-21be-5249fd0ab8bc" testName="CreateProductColorTest" computerName="LOUIS-HP" duration="00:00:00.0057664" startTime="2012-08-30T16:13:36.0837400-07:00" endTime="2012-08-30T16:13:36.0937406-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3abdb368-ad4f-4506-b6f8-ee8328931bc7">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreNotEqual failed. Expected any value except:&lt;-1&gt;. Actual:&lt;-1&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductColorTest.CreateProductColorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductColorTest.cs:line 60
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="607f8763-f3c0-4867-9209-b050e5f32fd3" testId="32befc5b-2805-679f-e132-a2c900e50a08" testName="CreatePVTest" computerName="LOUIS-HP" duration="00:00:00.0081755" startTime="2012-08-30T16:13:36.0977408-07:00" endTime="2012-08-30T16:13:36.1107415-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="607f8763-f3c0-4867-9209-b050e5f32fd3">
+      <Output>
+        <DebugTrace>THIS IS THE PID:1
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Assert.AreNotEqual failed. Expected any value except:&lt;-1&gt;. Actual:&lt;-1&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductVariationTest.CreatePVTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductVariationTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d559193b-ed29-486a-8e94-d8ca68f27b2c" testId="4068bac0-9c67-8bcf-fe66-d8581e88d686" testName="CreateProductCuttingTest" computerName="LOUIS-HP" duration="00:00:00.0064143" startTime="2012-08-30T16:13:36.1137417-07:00" endTime="2012-08-30T16:13:36.1247423-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d559193b-ed29-486a-8e94-d8ca68f27b2c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreNotEqual failed. Expected any value except:&lt;-1&gt;. Actual:&lt;-1&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductCuttingTest.CreateProductCuttingTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductCuttingTest.cs:line 60
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ffe92f46-e164-463a-ad9c-23b668edbc07" testId="44c316ef-e570-09f1-f2c1-54180c893f98" testName="ReadAllBrandTest" computerName="LOUIS-HP" duration="00:00:00.0067628" startTime="2012-08-30T16:13:36.1287426-07:00" endTime="2012-08-30T16:13:36.1407433-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ffe92f46-e164-463a-ad9c-23b668edbc07">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at BLTest.BLBrandTest.ReadAllBrandTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLBrandTest.cs:line 78
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b1acd9dd-74cf-46f5-a934-fc1422b55a3d" testId="493a7605-2b5d-6b34-77c0-38590edb775c" testName="DeleteOrderTest" computerName="LOUIS-HP" duration="00:00:00.0009263" startTime="2012-08-30T16:13:36.1457435-07:00" endTime="2012-08-30T16:13:36.1517439-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1acd9dd-74cf-46f5-a934-fc1422b55a3d">
+    </UnitTestResult>
+    <UnitTestResult executionId="369f90a6-4c5d-4ecd-bd79-5cedfbc0b556" testId="4984de8b-0f11-84fe-96e4-b08c00e8db25" testName="CreateProductErrorTest" computerName="LOUIS-HP" duration="00:00:00.0057428" startTime="2012-08-30T16:13:36.1547441-07:00" endTime="2012-08-30T16:13:36.1647446-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="369f90a6-4c5d-4ecd-bd79-5cedfbc0b556">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductTest.CreateProductErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductTest.cs:line 128
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c2294fe4-eb10-4959-b95b-73464fc8c9cf" testId="51e7e7bf-6ccc-542c-0d91-d03ec1c8332e" testName="DeleteProductVariationInfoTest" computerName="LOUIS-HP" duration="00:00:00.0126373" startTime="2012-08-30T16:13:36.1677448-07:00" endTime="2012-08-30T16:13:36.1857458-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2294fe4-eb10-4959-b95b-73464fc8c9cf">
+      <Output>
+        <DebugTrace>THIS IS THE PID:1
+REACHED here is the id: -1
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method BLTest.BLProductVariationTest.DeleteProductVariationInfoTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at BLTest.BLProductVariationTest.DeleteProductVariationInfoTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductVariationTest.cs:line 169
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ee8ed94b-4b6e-4957-9591-644bc8788e8e" testId="527f0874-7efa-38fb-4cdb-7845b6fdc52f" testName="ReadAllProductTypeTest" computerName="LOUIS-HP" duration="00:00:00.0067512" startTime="2012-08-30T16:13:36.1897461-07:00" endTime="2012-08-30T16:13:36.2007467-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee8ed94b-4b6e-4957-9591-644bc8788e8e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductTypeTest.ReadAllProductTypeTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductTypeTest.cs:line 80
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1ac8dc41-23b7-4fbf-ab2c-1c3464f635c8" testId="53956050-dfb2-bc6f-a53b-1e274204bdd8" testName="ReadAllProductColorTest" computerName="LOUIS-HP" duration="00:00:00.0062497" startTime="2012-08-30T16:13:36.2037469-07:00" endTime="2012-08-30T16:13:36.2147475-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ac8dc41-23b7-4fbf-ab2c-1c3464f635c8">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductColorTest.ReadAllProductColorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductColorTest.cs:line 83
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="29378cc1-df6b-4ed3-a9b6-058db53e9587" testId="6567eec0-603e-0c1c-b63c-38e9a20c4df4" testName="ReadAllProductCuttingTest" computerName="LOUIS-HP" duration="00:00:00.0069560" startTime="2012-08-30T16:13:36.2187477-07:00" endTime="2012-08-30T16:13:36.2297484-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29378cc1-df6b-4ed3-a9b6-058db53e9587">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductCuttingTest.ReadAllProductCuttingTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductCuttingTest.cs:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f675e5f5-616d-4783-9e24-e734c049d643" testId="6724fe7d-3a6e-82e1-5e9c-bfae58cb851f" testName="UpdateBrandTest" computerName="LOUIS-HP" duration="00:00:00.0068735" startTime="2012-08-30T16:13:36.2327485-07:00" endTime="2012-08-30T16:13:36.2447492-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f675e5f5-616d-4783-9e24-e734c049d643">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;-1&gt;. </Message>
+          <StackTrace>   at BLTest.BLBrandTest.UpdateBrandTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLBrandTest.cs:line 98
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c1f4fa5d-4f9c-4972-b666-f124ef8e9726" testId="72a23555-32b2-8606-9cd7-3ffb7f93b94d" testName="CreateProductColorNullErrorTest" computerName="LOUIS-HP" duration="00:00:00.0047446" startTime="2012-08-30T16:13:36.2477494-07:00" endTime="2012-08-30T16:13:36.2567499-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1f4fa5d-4f9c-4972-b666-f124ef8e9726">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductColorTest.CreateProductColorNullErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductColorTest.cs:line 118
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b33beda0-0268-4a74-948d-04637ba2ac42" testId="73a2a41e-edaf-9b15-53d0-e9a56dfdd209" testName="UpdateOrderTest" computerName="LOUIS-HP" duration="00:00:00.0114646" startTime="2012-08-30T16:13:36.2607501-07:00" endTime="2012-08-30T16:13:36.2767510-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b33beda0-0268-4a74-948d-04637ba2ac42">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at BLTest.BLOrdersTest.UpdateOrderTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLOrdersTest.cs:line 334
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3197457c-5348-4904-b7ae-d63a55182eb4" testId="749e2125-91f3-366c-3cc9-5d757c5d89fc" testName="UpdateProductTypeTest" computerName="LOUIS-HP" duration="00:00:00.0068172" startTime="2012-08-30T16:13:36.2807513-07:00" endTime="2012-08-30T16:13:36.2917519-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3197457c-5348-4904-b7ae-d63a55182eb4">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;-1&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductTypeTest.UpdateProductTypeTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductTypeTest.cs:line 100
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="466e024a-2002-48cb-991d-edb6265c7b47" testId="7c829374-b2b7-a64c-0106-8a1c527f9eee" testName="CreateProductTypeNullErrorTest" computerName="LOUIS-HP" duration="00:00:00.0056758" startTime="2012-08-30T16:13:36.2957521-07:00" endTime="2012-08-30T16:13:36.3057527-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="466e024a-2002-48cb-991d-edb6265c7b47">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductTypeTest.CreateProductTypeNullErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductTypeTest.cs:line 115
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fae7b3ba-4c01-4bb0-98ad-3c405457daf3" testId="83def0be-13ed-eb0c-cf34-39cb5d72d47e" testName="ReadAllPVTest" computerName="LOUIS-HP" duration="00:00:00.0071300" startTime="2012-08-30T16:13:36.3097529-07:00" endTime="2012-08-30T16:13:36.3217536-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fae7b3ba-4c01-4bb0-98ad-3c405457daf3">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductVariationTest.ReadAllPVTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductVariationTest.cs:line 105
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b326b8aa-2d17-4f37-aca6-272d868b637d" testId="8440b3dd-4629-ecb3-bea3-283361475284" testName="CreateBrandErrorTest" computerName="LOUIS-HP" duration="00:00:00.0056209" startTime="2012-08-30T16:13:36.3247538-07:00" endTime="2012-08-30T16:13:36.3347544-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b326b8aa-2d17-4f37-aca6-272d868b637d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at BLTest.BLBrandTest.CreateBrandErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLBrandTest.cs:line 134
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="15a281c1-6b50-4df2-a8fb-a90e176ee4d8" testId="87cd62b0-6032-0378-4d78-97f7b2cf2151" testName="ProductTypeReadErrorTest" computerName="LOUIS-HP" duration="00:00:00.0062198" startTime="2012-08-30T16:13:36.3387546-07:00" endTime="2012-08-30T16:13:36.3487552-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15a281c1-6b50-4df2-a8fb-a90e176ee4d8">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;4&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductTypeTest.ProductTypeReadErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductTypeTest.cs:line 150
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="48335d32-c526-4efc-8f1f-283cef2da584" testId="886bee7d-d334-dfe7-c238-7453c4d49aba" testName="DeleteOrderItemTest" computerName="LOUIS-HP" duration="00:00:00.0015175" startTime="2012-08-30T16:13:36.3527554-07:00" endTime="2012-08-30T16:13:36.3587557-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48335d32-c526-4efc-8f1f-283cef2da584">
+    </UnitTestResult>
+    <UnitTestResult executionId="60ef8b09-a3fa-4092-b8f1-0e6cbbb88c34" testId="8ddb55d2-cc76-8371-0cab-349758d0faba" testName="ProductVariationUpdateErrorTest" computerName="LOUIS-HP" duration="00:00:00.0053871" startTime="2012-08-30T16:13:36.3617559-07:00" endTime="2012-08-30T16:13:36.3717565-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60ef8b09-a3fa-4092-b8f1-0e6cbbb88c34">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;3&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductVariationTest.ProductVariationUpdateErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductVariationTest.cs:line 220
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b1e5ba37-7528-4434-9a0e-43dc9af15123" testId="906cdd9a-e41c-b869-1786-a4ffe476ad69" testName="CreateProductCuttingErrorTest" computerName="LOUIS-HP" duration="00:00:00.0058391" startTime="2012-08-30T16:13:36.3747566-07:00" endTime="2012-08-30T16:13:36.3857573-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1e5ba37-7528-4434-9a0e-43dc9af15123">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductCuttingTest.CreateProductCuttingErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductCuttingTest.cs:line 127
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a0e07a42-1a55-4287-85fd-b95a9aeec977" testId="924a726f-7065-3789-c891-f57af25f387b" testName="DeleteUserTest" computerName="LOUIS-HP" duration="00:00:00.0009317" startTime="2012-08-30T16:13:36.3897575-07:00" endTime="2012-08-30T16:13:36.3947578-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0e07a42-1a55-4287-85fd-b95a9aeec977">
+    </UnitTestResult>
+    <UnitTestResult executionId="adfb52ba-1e33-41ea-a96e-7231c425aa0f" testId="9ab46af0-2743-cf89-1d6c-179a016f19ed" testName="UpdateOrderItemTest" computerName="LOUIS-HP" duration="00:00:00.0094017" startTime="2012-08-30T16:13:36.3987580-07:00" endTime="2012-08-30T16:13:36.4127588-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="adfb52ba-1e33-41ea-a96e-7231c425aa0f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at BLTest.BLOrderItemTest.UpdateOrderItemTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLOrderItemTest.cs:line 373
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="255a4be8-dde1-4ec9-ab3b-af1701360a4d" testId="9cf39b8e-04c2-b861-736b-953b0b495874" testName="ProductColorUpdateErrorTest" computerName="LOUIS-HP" duration="00:00:00.0062082" startTime="2012-08-30T16:13:36.4157590-07:00" endTime="2012-08-30T16:13:36.4267596-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="255a4be8-dde1-4ec9-ab3b-af1701360a4d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductColorTest.ProductColorUpdateErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductColorTest.cs:line 165
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="105d11e9-d804-4afb-a185-74dd8b9bdfc9" testId="a1263318-9a7b-fd6c-9b9f-3e717746b915" testName="ReadCustomerListTest" computerName="LOUIS-HP" duration="00:00:00.0104370" startTime="2012-08-30T16:13:36.4307598-07:00" endTime="2012-08-30T16:13:36.4467608-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="105d11e9-d804-4afb-a185-74dd8b9bdfc9">
+      <Output>
+        <DebugTrace>THIS IS THE ERROR: System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'bob'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DAL.DALCustomer.ReadCustomer(Int32 id, List`1&amp; errors) in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\cse136\DALCustomer.cs:line 94</DebugTrace>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at BLTest.BLCustomerTest.ReadCustomerListTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLCustomerTest.cs:line 181
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7adfc043-1eaa-4906-90f7-2e40c5aa7448" testId="a371c641-f9b0-857d-8d7a-ba50f3ebff43" testName="ProductColorReadErrorTest" computerName="LOUIS-HP" duration="00:00:00.0067088" startTime="2012-08-30T16:13:36.4497609-07:00" endTime="2012-08-30T16:13:36.4617616-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7adfc043-1eaa-4906-90f7-2e40c5aa7448">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;4&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductColorTest.ProductColorReadErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductColorTest.cs:line 155
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea37dfc1-189b-4914-8a4b-3aea184a8290" testId="a5af5316-0907-aef9-72aa-1e7958fc3974" testName="CreateProductTest" computerName="LOUIS-HP" duration="00:00:00.0058150" startTime="2012-08-30T16:13:36.4647618-07:00" endTime="2012-08-30T16:13:36.4767625-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea37dfc1-189b-4914-8a4b-3aea184a8290">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreNotEqual failed. Expected any value except:&lt;-1&gt;. Actual:&lt;-1&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductTest.CreateProductTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductTest.cs:line 59
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6b702b97-718d-4eaa-ae46-58a125b5e405" testId="a7d7b29b-200e-e950-acdb-f74fb0c8329a" testName="ProductVariationDeleteErrorTest" computerName="LOUIS-HP" duration="00:00:00.0071470" startTime="2012-08-30T16:13:36.4797627-07:00" endTime="2012-08-30T16:13:36.4907633-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b702b97-718d-4eaa-ae46-58a125b5e405">
+      <Output>
+        <DebugTrace>THIS IS THE PID:1
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;8&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductVariationTest.ProductVariationDeleteErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductVariationTest.cs:line 237
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9061cf4b-e9c5-48db-aeab-bd6c1227c131" testId="a91e9ed3-5646-12d6-93c6-af2db48c7e59" testName="ProductReadErrorTest" computerName="LOUIS-HP" duration="00:00:00.0064116" startTime="2012-08-30T16:13:36.4947635-07:00" endTime="2012-08-30T16:13:36.5057641-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9061cf4b-e9c5-48db-aeab-bd6c1227c131">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;4&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductTest.ProductReadErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductTest.cs:line 151
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6e589a74-a31d-45c6-8d03-bd36b2d38ce5" testId="ad76f5b9-eef6-7da3-02e0-bcb403ffa630" testName="UpdateProductCuttingTest" computerName="LOUIS-HP" duration="00:00:00.0064728" startTime="2012-08-30T16:13:36.5087643-07:00" endTime="2012-08-30T16:13:36.5207650-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e589a74-a31d-45c6-8d03-bd36b2d38ce5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;-1&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductCuttingTest.UpdateProductCuttingTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductCuttingTest.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="67384de1-61bc-4a55-8a32-ad0d9dc5e0cd" testId="b22f890b-2fb2-8bc9-6072-6c13741d1a72" testName="ProductCuttingReadErrorTest" computerName="LOUIS-HP" duration="00:00:00.0061716" startTime="2012-08-30T16:13:36.5237652-07:00" endTime="2012-08-30T16:13:36.5357659-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67384de1-61bc-4a55-8a32-ad0d9dc5e0cd">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;4&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductCuttingTest.ProductCuttingReadErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductCuttingTest.cs:line 150
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b914ff3f-217b-4273-9902-fd270416ca0a" testId="bdcd5694-6f47-8e9c-4f0a-b5a3d00cbbdc" testName="CreateProductCuttingNullErrorTest" computerName="LOUIS-HP" duration="00:00:00.0048945" startTime="2012-08-30T16:13:36.5397661-07:00" endTime="2012-08-30T16:13:36.5487666-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b914ff3f-217b-4273-9902-fd270416ca0a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductCuttingTest.CreateProductCuttingNullErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductCuttingTest.cs:line 114
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="34b11b0a-eff4-46cb-9aa4-ebae5a0497b6" testId="bfb23467-9ed6-2af2-a378-dc1e9bbf5b26" testName="CreateProductTypeErrorTest" computerName="LOUIS-HP" duration="00:00:00.0054228" startTime="2012-08-30T16:13:36.5517668-07:00" endTime="2012-08-30T16:13:36.5617673-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34b11b0a-eff4-46cb-9aa4-ebae5a0497b6">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductTypeTest.CreateProductTypeErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductTypeTest.cs:line 127
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1eac515e-3938-462f-bb77-2c183a1e8864" testId="c64b361e-3205-0c95-c097-86cdfb42cda1" testName="UpdateUserTest" computerName="LOUIS-HP" duration="00:00:00.0124342" startTime="2012-08-30T16:13:36.5657676-07:00" endTime="2012-08-30T16:13:36.5827685-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1eac515e-3938-462f-bb77-2c183a1e8864">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at BLTest.BLUserTest.UpdateUserTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLUserTest.cs:line 228
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="48eb2b9a-519d-48d6-abd9-4e2b7d74eba1" testId="c67b2499-e7a4-2b19-624b-77fbc4aeac92" testName="ProductTypeUpdateErrorTest" computerName="LOUIS-HP" duration="00:00:00.0051056" startTime="2012-08-30T16:13:36.5857687-07:00" endTime="2012-08-30T16:13:36.5957693-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48eb2b9a-519d-48d6-abd9-4e2b7d74eba1">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductTypeTest.ProductTypeUpdateErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductTypeTest.cs:line 160
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4443cd4d-7b55-4a6c-9787-4d644eb1fb24" testId="c6b026e9-3960-4229-9874-a43b265d5ac5" testName="ProductUpdateErrorTest" computerName="LOUIS-HP" duration="00:00:00.0054389" startTime="2012-08-30T16:13:36.5997695-07:00" endTime="2012-08-30T16:13:36.6097701-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4443cd4d-7b55-4a6c-9787-4d644eb1fb24">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductTest.ProductUpdateErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductTest.cs:line 161
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4a1babdc-1d72-4767-82f4-2d3d0f9a9d87" testId="cb576a10-2d92-ab9f-8fcd-b9bd7c8e4579" testName="ReadOrderItemTest" computerName="LOUIS-HP" duration="00:00:00.0086084" startTime="2012-08-30T16:13:36.6127703-07:00" endTime="2012-08-30T16:13:36.6267711-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a1babdc-1d72-4767-82f4-2d3d0f9a9d87">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at BLTest.BLOrderItemTest.ReadOrderItemTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLOrderItemTest.cs:line 204
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="73f66f13-805e-4741-b6a5-babd61e0aa93" testId="cc943512-d061-8a99-3a4a-22ce9199b189" testName="CreateOrderItemTest" computerName="LOUIS-HP" duration="00:00:00.0135346" startTime="2012-08-30T16:13:36.6297712-07:00" endTime="2012-08-30T16:13:36.6487723-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73f66f13-805e-4741-b6a5-babd61e0aa93">
+      <Output>
+        <StdOut>System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'bob'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DAL.DALOrders.CreateOrder(Orders order, List`1&amp; errors) in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\cse136\DALOrders.cs:line 38</StdOut>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at BLTest.BLOrderItemTest.CreateOrderItemTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLOrderItemTest.cs:line 156
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6e3c5b9a-96b6-4ca5-a450-79ff1a1b3f5d" testId="cddde496-20c6-4b8e-d5cd-072a15f2fccb" testName="BrandReadErrorTest" computerName="LOUIS-HP" duration="00:00:00.0061537" startTime="2012-08-30T16:13:36.6517725-07:00" endTime="2012-08-30T16:13:36.6627731-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e3c5b9a-96b6-4ca5-a450-79ff1a1b3f5d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;4&gt;. </Message>
+          <StackTrace>   at BLTest.BLBrandTest.BrandReadErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLBrandTest.cs:line 146
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="af21a4ea-8985-457c-a044-3ff5114d0ea9" testId="d2636e01-07d3-8d97-7e57-ab6725f5e972" testName="CreateProductNullErrorTest" computerName="LOUIS-HP" duration="00:00:00.0054326" startTime="2012-08-30T16:13:36.6657733-07:00" endTime="2012-08-30T16:13:36.6757739-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af21a4ea-8985-457c-a044-3ff5114d0ea9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductTest.CreateProductNullErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductTest.cs:line 115
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3e0c36cc-8f04-4511-8166-901a353c161f" testId="dc348301-aaee-9d57-e85e-e7bdc8bf9c91" testName="UpdateProductColorTest" computerName="LOUIS-HP" duration="00:00:00.0057383" startTime="2012-08-30T16:13:36.6797741-07:00" endTime="2012-08-30T16:13:36.6917748-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e0c36cc-8f04-4511-8166-901a353c161f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;-1&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductColorTest.UpdateProductColorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductColorTest.cs:line 103
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fdf1800d-4d62-4ae9-90d5-0edde205c493" testId="e838b5ac-738c-c97e-c3d6-f1fb0daa2370" testName="BrandUpdateErrorTest" computerName="LOUIS-HP" duration="00:00:00.0056656" startTime="2012-08-30T16:13:36.6947749-07:00" endTime="2012-08-30T16:13:36.7047755-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdf1800d-4d62-4ae9-90d5-0edde205c493">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at BLTest.BLBrandTest.BrandUpdateErrorTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLBrandTest.cs:line 157
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="48f9ecf4-19c0-45f0-b3aa-1e5e6909aa24" testId="ec9f8ac9-bbad-7904-9e27-a42604c75864" testName="UpdateCustomerTest" computerName="LOUIS-HP" duration="00:00:00.0179637" startTime="2012-08-30T16:13:36.7077757-07:00" endTime="2012-08-30T16:13:36.7307770-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48f9ecf4-19c0-45f0-b3aa-1e5e6909aa24">
+      <Output>
+        <DebugTrace>THIS IS THE ERROR: System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'bob'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DAL.DALCustomer.UpdateCustomer(Customer customer, List`1&amp; errors) in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\cse136\DALCustomer.cs:line 232</DebugTrace>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at BLTest.BLCustomerTest.UpdateCustomerTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLCustomerTest.cs:line 281
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9f9f03bc-132e-4a77-88b6-26969bb73707" testId="f3f8f937-4c7c-939b-ae77-fc501524ffbb" testName="ReadUserTest" computerName="LOUIS-HP" duration="00:00:00.0082161" startTime="2012-08-30T16:13:36.7337772-07:00" endTime="2012-08-30T16:13:36.7467779-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f9f03bc-132e-4a77-88b6-26969bb73707">
+      <Output>
+        <DebugTrace>THIS IS THE ERROR: System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'bob'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DAL.DALUser.ReadUser(Int32 id, List`1&amp; errors) in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\cse136\DALUser.cs:line 77</DebugTrace>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at BLTest.BLUserTest.ReadUserTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLUserTest.cs:line 153
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8880df2d-659a-4499-83d8-6cc7d5c106eb" testId="f5116b98-dd2f-50c2-839b-71e219a68e4d" testName="CreateCustomerTest" computerName="LOUIS-HP" duration="00:00:00.0130183" startTime="2012-08-30T16:13:36.7507782-07:00" endTime="2012-08-30T16:13:36.7687792-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8880df2d-659a-4499-83d8-6cc7d5c106eb">
+      <Output>
+        <DebugTrace>THIS IS THE ERROR: System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'bob'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DAL.DALCustomer.CreateCustomer(Customer customer, List`1&amp; errors) in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\cse136\DALCustomer.cs:line 59</DebugTrace>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at BLTest.BLCustomerTest.CreateCustomerTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLCustomerTest.cs:line 162
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="65342902-5486-4b3d-bb51-3f9f85bf2a05" testId="f7826c58-01e2-4c82-f47f-08228e891502" testName="CreateBrandTest" computerName="LOUIS-HP" duration="00:00:00.0060564" startTime="2012-08-30T16:13:36.7717794-07:00" endTime="2012-08-30T16:13:36.7817799-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65342902-5486-4b3d-bb51-3f9f85bf2a05">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreNotEqual failed. Expected any value except:&lt;-1&gt;. Actual:&lt;-1&gt;. </Message>
+          <StackTrace>   at BLTest.BLBrandTest.CreateBrandTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLBrandTest.cs:line 59
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="612a1032-5f66-4ed1-a542-e1f1f86af2f6" testId="fceb51c8-60ab-9dba-9bc5-68eec453d8bc" testName="UpdateProductTest" computerName="LOUIS-HP" duration="00:00:00.0062037" startTime="2012-08-30T16:13:36.7867802-07:00" endTime="2012-08-30T16:13:36.7987809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="612a1032-5f66-4ed1-a542-e1f1f86af2f6">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;-1&gt;. </Message>
+          <StackTrace>   at BLTest.BLProductTest.UpdateProductTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLProductTest.cs:line 100
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="abbfe6b9-2024-402d-9ba2-099a8bd2fe11" testId="fe9a4a1b-3bca-343b-6c6c-7b9a9abb113f" testName="CreateOrderTest" computerName="LOUIS-HP" duration="00:00:00.0093147" startTime="2012-08-30T16:13:36.8017811-07:00" endTime="2012-08-30T16:13:36.8157819-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="abbfe6b9-2024-402d-9ba2-099a8bd2fe11">
+      <Output>
+        <StdOut>Order cannot be null
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'bob'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DAL.DALOrders.CreateOrder(Orders order, List`1&amp; errors) in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\cse136\DALOrders.cs:line 38</StdOut>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at BLTest.BLOrdersTest.CreateOrderTest() in C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BLTest\BLOrdersTest.cs:line 176
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

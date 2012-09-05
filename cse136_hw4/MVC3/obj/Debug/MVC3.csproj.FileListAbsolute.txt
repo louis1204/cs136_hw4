@@ -1,0 +1,7 @@
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\MVC3\bin\MVC3.dll
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\MVC3\bin\MVC3.pdb
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\MVC3\bin\EntityFramework.dll
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\MVC3\bin\EntityFramework.xml
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\MVC3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\MVC3\obj\Debug\MVC3.dll
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\MVC3\obj\Debug\MVC3.pdb

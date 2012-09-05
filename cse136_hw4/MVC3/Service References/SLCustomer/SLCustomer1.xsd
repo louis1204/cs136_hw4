@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/DomainModel" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/DomainModel" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:51845/SLCustomer.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="Customer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="address1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="age" type="xs:int" />
+      <xs:element minOccurs="0" name="children" type="xs:int" />
+      <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="customer_id" type="xs:int" />
+      <xs:element minOccurs="0" name="degree" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="first_name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="gender" type="ser:char" />
+      <xs:element minOccurs="0" name="hobby" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="income" type="xs:int" />
+      <xs:element minOccurs="0" name="last_name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ownHouse" type="xs:int" />
+      <xs:element minOccurs="0" name="state" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="zip" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Customer" nillable="true" type="tns:Customer" />
+  <xs:complexType name="ArrayOfCustomer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Customer" nillable="true" type="tns:Customer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCustomer" nillable="true" type="tns:ArrayOfCustomer" />
+</xs:schema>

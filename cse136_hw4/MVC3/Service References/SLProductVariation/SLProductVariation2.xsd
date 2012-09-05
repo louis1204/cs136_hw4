@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/DomainModel" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/DomainModel" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:51845/SLProductVariation.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ProductVariationInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="condition" type="ser:char" />
+      <xs:element minOccurs="0" name="price" type="xs:float" />
+      <xs:element minOccurs="0" name="product_brand_id" type="xs:int" />
+      <xs:element minOccurs="0" name="product_color_id" type="xs:int" />
+      <xs:element minOccurs="0" name="product_cutting_id" type="xs:int" />
+      <xs:element minOccurs="0" name="product_id" type="xs:int" />
+      <xs:element minOccurs="0" name="product_type_id" type="xs:int" />
+      <xs:element minOccurs="0" name="product_variation_id" type="xs:int" />
+      <xs:element minOccurs="0" name="sex" type="ser:char" />
+      <xs:element minOccurs="0" name="size" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="stock" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProductVariationInfo" nillable="true" type="tns:ProductVariationInfo" />
+  <xs:complexType name="ArrayOfProductVariationInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProductVariationInfo" nillable="true" type="tns:ProductVariationInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProductVariationInfo" nillable="true" type="tns:ArrayOfProductVariationInfo" />
+</xs:schema>

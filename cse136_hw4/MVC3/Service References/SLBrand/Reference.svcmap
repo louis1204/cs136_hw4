@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ba2d69ec-88f0-4d9a-ae17-f5f22efa4474" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51845/SLBrand.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SLBrand.xsd" MetadataType="Schema" ID="ab7f241f-97b4-49f9-8ede-d1cc823d612d" SourceId="1" SourceUrl="http://localhost:51845/SLBrand.svc?xsd=xsd0" />
+    <MetadataFile FileName="SLBrand1.xsd" MetadataType="Schema" ID="8bf5bd5d-77ea-4aae-b6aa-93d89ebed32b" SourceId="1" SourceUrl="http://localhost:51845/SLBrand.svc?xsd=xsd1" />
+    <MetadataFile FileName="SLBrand.wsdl" MetadataType="Wsdl" ID="61811ef4-cef5-4639-9246-3b933ff236e5" SourceId="1" SourceUrl="http://localhost:51845/SLBrand.svc?wsdl" />
+    <MetadataFile FileName="SLBrand2.xsd" MetadataType="Schema" ID="b0816057-2613-4a00-907e-9009890c265e" SourceId="1" SourceUrl="http://localhost:51845/SLBrand.svc?xsd=xsd2" />
+    <MetadataFile FileName="SLBrand.disco" MetadataType="Disco" ID="d1c002b0-4914-4982-b403-29c1aaf752c1" SourceId="1" SourceUrl="http://localhost:51845/SLBrand.svc?disco" />
+    <MetadataFile FileName="SLBrand3.xsd" MetadataType="Schema" ID="1edfa041-e263-4679-b530-f3667562bb67" SourceId="1" SourceUrl="http://localhost:51845/SLBrand.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

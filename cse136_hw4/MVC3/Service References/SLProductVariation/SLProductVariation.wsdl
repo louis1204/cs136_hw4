@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="SLProductVariation" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:51845/SLProductVariation.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:51845/SLProductVariation.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:51845/SLProductVariation.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:51845/SLProductVariation.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/DomainModel" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISLProductVariation_ReadPV_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReadPV" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductVariation_ReadPV_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReadPVResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductVariation_CreatePV_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreatePV" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductVariation_CreatePV_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreatePVResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductVariation_UpdatePV_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePV" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductVariation_UpdatePV_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePVResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductVariation_DeletePV_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePV" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductVariation_DeletePV_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePVResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductVariation_ReadAllPV_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReadAllPV" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductVariation_ReadAllPV_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReadAllPVResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductVariation_ReadAllPVCondition_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReadAllPVCondition" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductVariation_ReadAllPVCondition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReadAllPVConditionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ISLProductVariation">
+    <wsdl:operation name="ReadPV">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISLProductVariation/ReadPV" message="tns:ISLProductVariation_ReadPV_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISLProductVariation/ReadPVResponse" message="tns:ISLProductVariation_ReadPV_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreatePV">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISLProductVariation/CreatePV" message="tns:ISLProductVariation_CreatePV_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISLProductVariation/CreatePVResponse" message="tns:ISLProductVariation_CreatePV_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePV">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISLProductVariation/UpdatePV" message="tns:ISLProductVariation_UpdatePV_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISLProductVariation/UpdatePVResponse" message="tns:ISLProductVariation_UpdatePV_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePV">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISLProductVariation/DeletePV" message="tns:ISLProductVariation_DeletePV_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISLProductVariation/DeletePVResponse" message="tns:ISLProductVariation_DeletePV_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReadAllPV">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISLProductVariation/ReadAllPV" message="tns:ISLProductVariation_ReadAllPV_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISLProductVariation/ReadAllPVResponse" message="tns:ISLProductVariation_ReadAllPV_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReadAllPVCondition">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISLProductVariation/ReadAllPVCondition" message="tns:ISLProductVariation_ReadAllPVCondition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISLProductVariation/ReadAllPVConditionResponse" message="tns:ISLProductVariation_ReadAllPVCondition_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISLProductVariation" type="tns:ISLProductVariation">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ReadPV">
+      <soap:operation soapAction="http://tempuri.org/ISLProductVariation/ReadPV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreatePV">
+      <soap:operation soapAction="http://tempuri.org/ISLProductVariation/CreatePV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePV">
+      <soap:operation soapAction="http://tempuri.org/ISLProductVariation/UpdatePV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePV">
+      <soap:operation soapAction="http://tempuri.org/ISLProductVariation/DeletePV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReadAllPV">
+      <soap:operation soapAction="http://tempuri.org/ISLProductVariation/ReadAllPV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReadAllPVCondition">
+      <soap:operation soapAction="http://tempuri.org/ISLProductVariation/ReadAllPVCondition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SLProductVariation">
+    <wsdl:port name="BasicHttpBinding_ISLProductVariation" binding="tns:BasicHttpBinding_ISLProductVariation">
+      <soap:address location="http://localhost:51845/SLProductVariation.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,8 @@
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\MVC3.Tests\bin\Debug\MVC3.Tests.dll.config
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\MVC3.Tests\bin\Debug\MVC3.Tests.dll
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\MVC3.Tests\bin\Debug\MVC3.Tests.pdb
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\MVC3.Tests\bin\Debug\MVC3.dll
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\MVC3.Tests\bin\Debug\MVC3.pdb
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\MVC3.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\MVC3.Tests\obj\Debug\MVC3.Tests.dll
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\MVC3.Tests\obj\Debug\MVC3.Tests.pdb

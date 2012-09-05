@@ -1,0 +1,90 @@
+C:\Users\Tablet\documents\visual studio 2010\Projects\cse136\BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tablet\documents\visual studio 2010\Projects\cse136\BL\bin\Debug\BL.dll
+C:\Users\Tablet\documents\visual studio 2010\Projects\cse136\BL\bin\Debug\BL.pdb
+C:\Users\Tablet\documents\visual studio 2010\Projects\cse136\BL\bin\Debug\cse136.dll
+C:\Users\Tablet\documents\visual studio 2010\Projects\cse136\BL\bin\Debug\DomainModel.dll
+C:\Users\Tablet\documents\visual studio 2010\Projects\cse136\BL\bin\Debug\cse136.pdb
+C:\Users\Tablet\documents\visual studio 2010\Projects\cse136\BL\bin\Debug\DomainModel.pdb
+C:\Users\Tablet\documents\visual studio 2010\Projects\cse136\BL\obj\Debug\BL.dll
+C:\Users\Tablet\documents\visual studio 2010\Projects\cse136\BL\obj\Debug\BL.pdb
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136\BL\bin\Debug\BL.dll
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136\BL\bin\Debug\BL.pdb
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136\BL\bin\Debug\cse136.dll
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136\BL\bin\Debug\DomainModel.dll
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136\BL\bin\Debug\cse136.pdb
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136\BL\bin\Debug\DomainModel.pdb
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136\BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136\BL\obj\Debug\BL.dll
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136\BL\obj\Debug\BL.pdb
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136\BL\bin\Debug\BL.dll
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136\BL\bin\Debug\BL.pdb
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136\BL\bin\Debug\cse136.dll
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136\BL\bin\Debug\DomainModel.dll
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136\BL\bin\Debug\cse136.pdb
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136\BL\bin\Debug\DomainModel.pdb
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136\BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136\BL\obj\Debug\BL.dll
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136\BL\obj\Debug\BL.pdb
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136_vs2010_solution\BL\bin\Debug\BL.dll
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136_vs2010_solution\BL\bin\Debug\BL.pdb
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136_vs2010_solution\BL\bin\Debug\cse136.dll
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136_vs2010_solution\BL\bin\Debug\DomainModel.dll
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136_vs2010_solution\BL\bin\Debug\cse136.pdb
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136_vs2010_solution\BL\bin\Debug\DomainModel.pdb
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136_vs2010_solution\BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136_vs2010_solution\BL\obj\Debug\BL.dll
+C:\Users\Tablet\Desktop\136 summer 2011 ppt\cse136_vs2010_solution\BL\obj\Debug\BL.pdb
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136_vs2010_solution\BL\bin\Debug\BL.dll
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136_vs2010_solution\BL\bin\Debug\BL.pdb
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136_vs2010_solution\BL\bin\Debug\cse136.dll
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136_vs2010_solution\BL\bin\Debug\DomainModel.dll
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136_vs2010_solution\BL\bin\Debug\cse136.pdb
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136_vs2010_solution\BL\bin\Debug\DomainModel.pdb
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136_vs2010_solution\BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136_vs2010_solution\BL\obj\Debug\BL.dll
+C:\Users\isaac\Documents\Visual Studio 2010\Projects\cse136_vs2010_solution\BL\obj\Debug\BL.pdb
+C:\Users\Tablet\Desktop\136 summer 2012\cse136_vs2010_solution\BL\bin\Debug\BL.dll
+C:\Users\Tablet\Desktop\136 summer 2012\cse136_vs2010_solution\BL\bin\Debug\BL.pdb
+C:\Users\Tablet\Desktop\136 summer 2012\cse136_vs2010_solution\BL\bin\Debug\cse136.dll
+C:\Users\Tablet\Desktop\136 summer 2012\cse136_vs2010_solution\BL\bin\Debug\DomainModel.dll
+C:\Users\Tablet\Desktop\136 summer 2012\cse136_vs2010_solution\BL\bin\Debug\cse136.pdb
+C:\Users\Tablet\Desktop\136 summer 2012\cse136_vs2010_solution\BL\bin\Debug\DomainModel.pdb
+C:\Users\Tablet\Desktop\136 summer 2012\cse136_vs2010_solution\BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tablet\Desktop\136 summer 2012\cse136_vs2010_solution\BL\obj\Debug\BL.dll
+C:\Users\Tablet\Desktop\136 summer 2012\cse136_vs2010_solution\BL\obj\Debug\BL.pdb
+C:\Users\owner\Desktop\cse136_vs2010_solution\BL\bin\Debug\BL.dll
+C:\Users\owner\Desktop\cse136_vs2010_solution\BL\bin\Debug\BL.pdb
+C:\Users\owner\Desktop\cse136_vs2010_solution\BL\bin\Debug\cse136.dll
+C:\Users\owner\Desktop\cse136_vs2010_solution\BL\bin\Debug\DomainModel.dll
+C:\Users\owner\Desktop\cse136_vs2010_solution\BL\bin\Debug\cse136.pdb
+C:\Users\owner\Desktop\cse136_vs2010_solution\BL\bin\Debug\DomainModel.pdb
+C:\Users\owner\Desktop\cse136_vs2010_solution\BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\owner\Desktop\cse136_vs2010_solution\BL\obj\Debug\BL.dll
+C:\Users\owner\Desktop\cse136_vs2010_solution\BL\obj\Debug\BL.pdb
+C:\Users\bob\Desktop\cse136_vs2010_solution\BL\bin\Debug\BL.dll
+C:\Users\bob\Desktop\cse136_vs2010_solution\BL\bin\Debug\BL.pdb
+C:\Users\bob\Desktop\cse136_vs2010_solution\BL\bin\Debug\cse136.dll
+C:\Users\bob\Desktop\cse136_vs2010_solution\BL\bin\Debug\DomainModel.dll
+C:\Users\bob\Desktop\cse136_vs2010_solution\BL\bin\Debug\cse136.pdb
+C:\Users\bob\Desktop\cse136_vs2010_solution\BL\bin\Debug\DomainModel.pdb
+C:\Users\bob\Desktop\cse136_vs2010_solution\BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bob\Desktop\cse136_vs2010_solution\BL\obj\Debug\BL.dll
+C:\Users\bob\Desktop\cse136_vs2010_solution\BL\obj\Debug\BL.pdb
+C:\Users\bob\Desktop\cse136_hw3\BL\bin\Debug\BL.dll
+C:\Users\bob\Desktop\cse136_hw3\BL\bin\Debug\BL.pdb
+C:\Users\bob\Desktop\cse136_hw3\BL\bin\Debug\cse136.dll
+C:\Users\bob\Desktop\cse136_hw3\BL\bin\Debug\DomainModel.dll
+C:\Users\bob\Desktop\cse136_hw3\BL\bin\Debug\cse136.pdb
+C:\Users\bob\Desktop\cse136_hw3\BL\bin\Debug\DomainModel.pdb
+C:\Users\bob\Desktop\cse136_hw3\BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bob\Desktop\cse136_hw3\BL\obj\Debug\BL.dll
+C:\Users\bob\Desktop\cse136_hw3\BL\obj\Debug\BL.pdb
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BL\bin\Debug\BL.dll
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BL\bin\Debug\BL.pdb
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BL\bin\Debug\cse136.dll
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BL\bin\Debug\DomainModel.dll
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BL\bin\Debug\cse136.pdb
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BL\bin\Debug\DomainModel.pdb
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BL\obj\Debug\BL.dll
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\BL\obj\Debug\BL.pdb
