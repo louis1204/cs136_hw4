@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="SLProductCutting" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:51845/SLProductCutting.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:51845/SLProductCutting.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:51845/SLProductCutting.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:51845/SLProductCutting.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/DomainModel" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISLProductCutting_ReadProductCutting_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReadProductCutting" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductCutting_ReadProductCutting_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReadProductCuttingResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductCutting_CreateProductCutting_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateProductCutting" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductCutting_CreateProductCutting_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateProductCuttingResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductCutting_UpdateProductCutting_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateProductCutting" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductCutting_UpdateProductCutting_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateProductCuttingResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductCutting_ReadAllProductCutting_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReadAllProductCutting" />
+  </wsdl:message>
+  <wsdl:message name="ISLProductCutting_ReadAllProductCutting_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReadAllProductCuttingResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ISLProductCutting">
+    <wsdl:operation name="ReadProductCutting">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISLProductCutting/ReadProductCutting" message="tns:ISLProductCutting_ReadProductCutting_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISLProductCutting/ReadProductCuttingResponse" message="tns:ISLProductCutting_ReadProductCutting_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateProductCutting">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISLProductCutting/CreateProductCutting" message="tns:ISLProductCutting_CreateProductCutting_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISLProductCutting/CreateProductCuttingResponse" message="tns:ISLProductCutting_CreateProductCutting_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateProductCutting">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISLProductCutting/UpdateProductCutting" message="tns:ISLProductCutting_UpdateProductCutting_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISLProductCutting/UpdateProductCuttingResponse" message="tns:ISLProductCutting_UpdateProductCutting_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReadAllProductCutting">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISLProductCutting/ReadAllProductCutting" message="tns:ISLProductCutting_ReadAllProductCutting_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISLProductCutting/ReadAllProductCuttingResponse" message="tns:ISLProductCutting_ReadAllProductCutting_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISLProductCutting" type="tns:ISLProductCutting">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ReadProductCutting">
+      <soap:operation soapAction="http://tempuri.org/ISLProductCutting/ReadProductCutting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateProductCutting">
+      <soap:operation soapAction="http://tempuri.org/ISLProductCutting/CreateProductCutting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateProductCutting">
+      <soap:operation soapAction="http://tempuri.org/ISLProductCutting/UpdateProductCutting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReadAllProductCutting">
+      <soap:operation soapAction="http://tempuri.org/ISLProductCutting/ReadAllProductCutting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SLProductCutting">
+    <wsdl:port name="BasicHttpBinding_ISLProductCutting" binding="tns:BasicHttpBinding_ISLProductCutting">
+      <soap:address location="http://localhost:51845/SLProductCutting.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

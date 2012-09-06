@@ -1,7 +1,8 @@
-﻿@model MVC3.Models.PLProductVariation
+﻿@model MVC3.Models.AllProductInfo
 
 @{
     ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Edit</h2>
@@ -9,97 +10,128 @@
 <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
 <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
 
-@using (Html.BeginForm()) {
+@using (Html.BeginForm("Edit", "ProductVariation", FormMethod.Post)) {
     @Html.ValidationSummary(true)
     <fieldset>
-        <legend>PLProductVariation</legend>
+        <legend>Product Variation</legend>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.pv_id)
+            @Html.LabelFor(model => model.pvList[0].pv_id)
         </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.pv_id)
-            @Html.ValidationMessageFor(model => model.pv_id)
-        </div>
+        <div class="editor-label">
+            @Html.EditorFor(model => model.pvList[0].pv_id)
+            @Html.ValidationMessageFor(model => model.pvList[0].pv_id)
+        </div> -->
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.product_id)
+            @Html.LabelFor(model => model.productList[0].Product_id)
         </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.product_id)
-            @Html.ValidationMessageFor(model => model.product_id)
-        </div>
-
-        <div class="editor-label">
-            @Html.LabelFor(model => model.brand_id)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.brand_id)
-            @Html.ValidationMessageFor(model => model.brand_id)
+        <div class="editor-field" id="products">
+            <select name="products">
+            @for (int i = 0; i < Model.productList.Count; i++)
+            {
+                <option value=@i.ToString()>@Model.productList[i].product_name</option>
+            }
+            </select>
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.product_color_id)
+            @Html.LabelFor(model => model.brandList[0].Brand_id)
         </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.product_color_id)
-            @Html.ValidationMessageFor(model => model.product_color_id)
-        </div>
-
-        <div class="editor-label">
-            @Html.LabelFor(model => model.product_cutting_id)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.product_cutting_id)
-            @Html.ValidationMessageFor(model => model.product_cutting_id)
+        <div class="editor-field" id="brands">
+            <select name="brands">
+            @for (int i = 0; i < Model.brandList.Count; i++)
+            {
+                <option value=@i.ToString()>@Model.brandList[i].Brand_name</option>
+            }
+            </select>
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.product_type_id)
+            @Html.LabelFor(model => model.colorList[0].ProductColor_id)
         </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.product_type_id)
-            @Html.ValidationMessageFor(model => model.product_type_id)
-        </div>
-
-        <div class="editor-label">
-            @Html.LabelFor(model => model.sex)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.sex)
-            @Html.ValidationMessageFor(model => model.sex)
+        <div class="editor-field" id="colors">
+            <select name="colors">
+            @for (int i = 0; i < Model.colorList.Count; i++)
+            {
+                <option value=@i.ToString()>@Model.colorList[i].ProductColor_name</option>
+            }
+            </select>
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.size)
+            @Html.LabelFor(model => model.pvList[0].product_cutting_id)
         </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.size)
-            @Html.ValidationMessageFor(model => model.size)
-        </div>
-
-        <div class="editor-label">
-            @Html.LabelFor(model => model.stock)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.stock)
-            @Html.ValidationMessageFor(model => model.stock)
+        <div class="editor-field" id="cuttings">
+            <select name="cuttings">
+            @for (int i = 0; i < Model.cuttingList.Count; i++)
+            {
+                <option value=@i.ToString()>@Model.cuttingList[i].ProductCutting_name</option>
+            }
+            </select>
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.price)
+            @Html.LabelFor(model => model.pvList[0].product_type_id)
         </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.price)
-            @Html.ValidationMessageFor(model => model.price)
+        <div class="editor-field" id="types">
+            <select name="types">
+            @for (int i = 0; i < Model.typeList.Count; i++)
+            {
+                <option value=@i.ToString()>@Model.typeList[i].ProductType_name</option>
+            }
+            </select>
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.condition)
+            @Html.LabelFor(model => model.pvList[0].sex)
         </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.condition)
-            @Html.ValidationMessageFor(model => model.condition)
+        <div class="editor-field" id="sexes">
+            <select name="sexes">
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="U">Undefined</option>
+            </select>
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.pvList[0].size)
+        </div>
+        <div class="editor-field" id="sizes">
+            <select name="sizes">
+                <option value="XS">XS</option>s
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+            </select>
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.pvList[0].stock)
+        </div>
+        <div class="editor-field" id="stocks">
+            @Html.EditorFor(model => model.pvList[0].stock)
+            @Html.ValidationMessageFor(model => model.pvList[0].stock)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.pvList[0].price)
+        </div>
+        <div class="editor-field" id="prices">
+            @Html.EditorFor(model => model.pvList[0].price)
+            @Html.ValidationMessageFor(model => model.pvList[0].price)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.pvList[0].condition)
+        </div>
+        <div class="editor-field" id="conditions">
+            <select name="conditions">
+                <option value="a">Available</option>
+                <option value="d">Delete</option>
+            </select>
         </div>
 
         <p>
@@ -111,3 +143,30 @@
 <div>
     @Html.ActionLink("Back to List", "Index")
 </div>
+
+<!--<script>
+    var product_variation_id = "@Html.DisplayFor(model => model.pvList[0].pv_id)";
+    var product_id = "@Html.DisplayFor(model => model.pvList[0].product_id)";
+    var brand_id = "@Html.DisplayFor(model => model.pvList[0].brand_id)";
+    var product_color_id = "@Html.DisplayFor(model => model.pvList[0].product_color_id)";
+    var product_cutting_id = "@Html.DisplayFor(model => model.pvList[0].product_cutting_id)";
+    var product_type_id = "@Html.DisplayFor(model => model.pvList[0].product_type_id)";
+    var sex = "@Html.DisplayFor(model => model.pvList[0].sex)";
+    var size = "@Html.DisplayFor(model => model.pvList[0].size)";
+    var stock = "@Html.DisplayFor(model => model.pvList[0].stock)";
+    var price = "@Html.DisplayFor(model => model.pvList[0].price)";
+    var condition = "@Html.DisplayFor(model => model.pvList[0].condition)";
+
+    $(document).ready(function () {
+        $("select[name=products] option[value=" + product_id + "]").attr("selected", "selected");
+        $("select[name=brands] option[value=" + brand_id + "]").attr("selected", "selected");
+        $("select[name=colors] option[value=" + product_color_id + "]").attr("selected", "selected");
+        $("select[name=cutting] option[value=" + product_cutting_id + "]").attr("selected", "selected");
+        $("select[name=types] option[value=" + product_type_id + "]").attr("selected", "selected");
+        $("select[name=sexes] option[value=" + sex + "]").attr("selected", "selected");
+        $("select[name=sizes] option[value=" + size + "]").attr("selected", "selected");
+        //$("select[name=products] option[value=" + product_variation_id + "]").attr("selected", "selected");
+        //$("select[name=products] option[value=" + product_variation_id + "]").attr("selected", "selected");
+        $("select[name=conditions] option[value=" + condition + "]").attr("selected", "selected");
+    });
+</script>-->

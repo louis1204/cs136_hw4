@@ -1,4 +1,4 @@
-﻿@model List<MVC3.Models.PLProductVariation>
+﻿@model MVC3.Models.AllProductInfo
 
 @{
     ViewBag.Title = "Index";
@@ -16,7 +16,7 @@
 </p>
  
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "Create", "ProductVariation")
 </p>
 <table>
     <tr>
@@ -27,16 +27,31 @@
             product_id
         </th>
         <th>
+            product_name
+        </th>
+        <th>
             product_brand_id
+        </th>
+        <th>
+            product_brand_name
         </th>
         <th>
             product_cutting_id
         </th>
         <th>
+            product_cutting_name
+        </th>
+        <th>
             product_color_id
         </th>
         <th>
+            product_color_name
+        </th>
+        <th>
             product_type_id
+        </th>
+        <th>
+            product_type_name
         </th>
         <th>
             sex
@@ -56,45 +71,60 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
+@for(int i = 0; i < Model.pvList.Count; i++) {//foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.pv_id)
+            @Html.DisplayFor(modelItem => Model.pvList[i].pv_id)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.product_id)
+            @Html.DisplayFor(modelItem => Model.pvList[i].product_id)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.brand_id)
+            @Html.DisplayFor(modelItem => Model.productList[Model.pvList[i].product_id].product_name)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.product_cutting_id)
+            @Html.DisplayFor(modelItem => Model.pvList[i].brand_id)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.product_color_id)
+            @Html.DisplayFor(modelItem => Model.brandList[Model.pvList[i].brand_id].Brand_name)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.product_type_id)
+            @Html.DisplayFor(modelItem => Model.pvList[i].product_cutting_id)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.sex)
+            @Html.DisplayFor(modelItem => Model.cuttingList[Model.pvList[i].product_cutting_id].ProductCutting_name)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.size)
+            @Html.DisplayFor(modelItem => Model.pvList[i].product_color_id)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.stock)
+            @Html.DisplayFor(modelItem => Model.colorList[Model.pvList[i].product_color_id].ProductColor_name)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.price)
+            @Html.DisplayFor(modelItem => Model.pvList[i].product_type_id)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.condition)
+            @Html.DisplayFor(modelItem => Model.typeList[Model.pvList[i].product_type_id].ProductType_name)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.pv_id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.pv_id }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.pv_id })
+            @Html.DisplayFor(modelItem => Model.pvList[i].sex)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => Model.pvList[i].size)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => Model.pvList[i].stock)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => Model.pvList[i].price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => Model.pvList[i].condition)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.pvList[i].pv_id }) |
+            @Html.ActionLink("Details", "Details", new { id = Model.pvList[i].pv_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = Model.pvList[i].pv_id })
         </td>
     </tr>
 }

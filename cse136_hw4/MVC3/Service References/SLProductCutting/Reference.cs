@@ -15,18 +15,18 @@ namespace MVC3.SLProductCutting {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ProductColorInfo", Namespace="http://schemas.datacontract.org/2004/07/DomainModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ProductCuttingInfo", Namespace="http://schemas.datacontract.org/2004/07/DomainModel")]
     [System.SerializableAttribute()]
-    public partial class ProductColorInfo : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+    public partial class ProductCuttingInfo : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int product_color_idField;
+        private int product_cutting_idField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string product_color_nameField;
+        private string product_cutting_nameField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -39,27 +39,27 @@ namespace MVC3.SLProductCutting {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public int product_color_id {
+        public int product_cutting_id {
             get {
-                return this.product_color_idField;
+                return this.product_cutting_idField;
             }
             set {
-                if ((this.product_color_idField.Equals(value) != true)) {
-                    this.product_color_idField = value;
-                    this.RaisePropertyChanged("product_color_id");
+                if ((this.product_cutting_idField.Equals(value) != true)) {
+                    this.product_cutting_idField = value;
+                    this.RaisePropertyChanged("product_cutting_id");
                 }
             }
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public string product_color_name {
+        public string product_cutting_name {
             get {
-                return this.product_color_nameField;
+                return this.product_cutting_nameField;
             }
             set {
-                if ((object.ReferenceEquals(this.product_color_nameField, value) != true)) {
-                    this.product_color_nameField = value;
-                    this.RaisePropertyChanged("product_color_name");
+                if ((object.ReferenceEquals(this.product_cutting_nameField, value) != true)) {
+                    this.product_cutting_nameField = value;
+                    this.RaisePropertyChanged("product_cutting_name");
                 }
             }
         }
@@ -75,63 +75,63 @@ namespace MVC3.SLProductCutting {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="SLProductCutting.ISLProductColor")]
-    public interface ISLProductColor {
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="SLProductCutting.ISLProductCutting")]
+    public interface ISLProductCutting {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISLProductColor/ReadProductColor", ReplyAction="http://tempuri.org/ISLProductColor/ReadProductColorResponse")]
-        MVC3.SLProductCutting.ProductColorInfo ReadProductColor(int id, ref string[] errors);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISLProductCutting/ReadProductCutting", ReplyAction="http://tempuri.org/ISLProductCutting/ReadProductCuttingResponse")]
+        MVC3.SLProductCutting.ProductCuttingInfo ReadProductCutting(int id, ref string[] errors);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISLProductColor/CreateProductColor", ReplyAction="http://tempuri.org/ISLProductColor/CreateProductColorResponse")]
-        int CreateProductColor(string name, ref string[] errors);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISLProductCutting/CreateProductCutting", ReplyAction="http://tempuri.org/ISLProductCutting/CreateProductCuttingResponse")]
+        int CreateProductCutting(string name, ref string[] errors);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISLProductColor/UpdateProductColor", ReplyAction="http://tempuri.org/ISLProductColor/UpdateProductColorResponse")]
-        int UpdateProductColor(int id, string name, ref string[] errors);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISLProductCutting/UpdateProductCutting", ReplyAction="http://tempuri.org/ISLProductCutting/UpdateProductCuttingResponse")]
+        int UpdateProductCutting(int id, string name, ref string[] errors);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISLProductColor/ReadAllProductColor", ReplyAction="http://tempuri.org/ISLProductColor/ReadAllProductColorResponse")]
-        MVC3.SLProductCutting.ProductColorInfo[] ReadAllProductColor(ref string[] errors);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISLProductCutting/ReadAllProductCutting", ReplyAction="http://tempuri.org/ISLProductCutting/ReadAllProductCuttingResponse")]
+        MVC3.SLProductCutting.ProductCuttingInfo[] ReadAllProductCutting(ref string[] errors);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ISLProductColorChannel : MVC3.SLProductCutting.ISLProductColor, System.ServiceModel.IClientChannel {
+    public interface ISLProductCuttingChannel : MVC3.SLProductCutting.ISLProductCutting, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class SLProductColorClient : System.ServiceModel.ClientBase<MVC3.SLProductCutting.ISLProductColor>, MVC3.SLProductCutting.ISLProductColor {
+    public partial class SLProductCuttingClient : System.ServiceModel.ClientBase<MVC3.SLProductCutting.ISLProductCutting>, MVC3.SLProductCutting.ISLProductCutting {
         
-        public SLProductColorClient() {
+        public SLProductCuttingClient() {
         }
         
-        public SLProductColorClient(string endpointConfigurationName) : 
+        public SLProductCuttingClient(string endpointConfigurationName) : 
                 base(endpointConfigurationName) {
         }
         
-        public SLProductColorClient(string endpointConfigurationName, string remoteAddress) : 
+        public SLProductCuttingClient(string endpointConfigurationName, string remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public SLProductColorClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public SLProductCuttingClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public SLProductColorClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public SLProductCuttingClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
         }
         
-        public MVC3.SLProductCutting.ProductColorInfo ReadProductColor(int id, ref string[] errors) {
-            return base.Channel.ReadProductColor(id, ref errors);
+        public MVC3.SLProductCutting.ProductCuttingInfo ReadProductCutting(int id, ref string[] errors) {
+            return base.Channel.ReadProductCutting(id, ref errors);
         }
         
-        public int CreateProductColor(string name, ref string[] errors) {
-            return base.Channel.CreateProductColor(name, ref errors);
+        public int CreateProductCutting(string name, ref string[] errors) {
+            return base.Channel.CreateProductCutting(name, ref errors);
         }
         
-        public int UpdateProductColor(int id, string name, ref string[] errors) {
-            return base.Channel.UpdateProductColor(id, name, ref errors);
+        public int UpdateProductCutting(int id, string name, ref string[] errors) {
+            return base.Channel.UpdateProductCutting(id, name, ref errors);
         }
         
-        public MVC3.SLProductCutting.ProductColorInfo[] ReadAllProductColor(ref string[] errors) {
-            return base.Channel.ReadAllProductColor(ref errors);
+        public MVC3.SLProductCutting.ProductCuttingInfo[] ReadAllProductCutting(ref string[] errors) {
+            return base.Channel.ReadAllProductCutting(ref errors);
         }
     }
 }

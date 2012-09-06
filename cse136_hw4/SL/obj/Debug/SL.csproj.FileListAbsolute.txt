@@ -86,9 +86,6 @@ C:\Users\bob\Desktop\cse136_hw3\SL\bin\DomainModel.pdb
 C:\Users\bob\Desktop\cse136_hw3\SL\bin\cse136.pdb
 C:\Users\bob\Desktop\cse136_hw3\SL\obj\Debug\SL.dll
 C:\Users\bob\Desktop\cse136_hw3\SL\obj\Debug\SL.pdb
-C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\SL\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\SL\obj\Debug\SL.dll
-C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\SL\obj\Debug\SL.pdb
 C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\SL\bin\SL.dll
 C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\SL\bin\SL.pdb
 C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\SL\bin\BL.dll
@@ -97,3 +94,6 @@ C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\SL\bin\cse136.dll
 C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\SL\bin\BL.pdb
 C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\SL\bin\DomainModel.pdb
 C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\SL\bin\cse136.pdb
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\SL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\SL\obj\Debug\SL.dll
+C:\Users\Louis\Desktop\cs136_hw4\cse136_hw4\SL\obj\Debug\SL.pdb

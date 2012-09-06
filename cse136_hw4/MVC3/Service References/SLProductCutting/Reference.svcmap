@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6215ff03-4e24-40ae-b894-8276547c3184" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="407cdccf-5a3c-42b0-8142-b073eca70e51" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <EnableDataBinding>true</EnableDataBinding>
@@ -18,15 +18,15 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:51845/SLProductColor.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:51845/SLProductCutting.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="SLProductColor.disco" MetadataType="Disco" ID="466f2bfc-3de3-4912-ae60-7faa38f33688" SourceId="1" SourceUrl="http://localhost:51845/SLProductColor.svc?disco" />
-    <MetadataFile FileName="SLProductColor.xsd" MetadataType="Schema" ID="18f0b060-5fe5-4a9c-bb89-7d9b2aa7a524" SourceId="1" SourceUrl="http://localhost:51845/SLProductColor.svc?xsd=xsd3" />
-    <MetadataFile FileName="SLProductColor1.xsd" MetadataType="Schema" ID="4c77f036-e34e-4b95-aa95-f22b8c438dce" SourceId="1" SourceUrl="http://localhost:51845/SLProductColor.svc?xsd=xsd2" />
-    <MetadataFile FileName="SLProductColor2.xsd" MetadataType="Schema" ID="527edfa0-9af6-4ec7-afcb-72fa9569d317" SourceId="1" SourceUrl="http://localhost:51845/SLProductColor.svc?xsd=xsd1" />
-    <MetadataFile FileName="SLProductColor3.xsd" MetadataType="Schema" ID="bb80ddeb-11a9-44c1-ba9b-1c67d64f6e79" SourceId="1" SourceUrl="http://localhost:51845/SLProductColor.svc?xsd=xsd0" />
-    <MetadataFile FileName="SLProductColor.wsdl" MetadataType="Wsdl" ID="eb69ffec-5959-4f0c-bdfe-9f02400f96f1" SourceId="1" SourceUrl="http://localhost:51845/SLProductColor.svc?wsdl" />
+    <MetadataFile FileName="SLProductCutting.xsd" MetadataType="Schema" ID="d0812846-53d6-40e5-aae5-2619199e4fe1" SourceId="1" SourceUrl="http://localhost:51845/SLProductCutting.svc?xsd=xsd0" />
+    <MetadataFile FileName="SLProductCutting1.xsd" MetadataType="Schema" ID="23e3d7fa-655a-4462-a9b3-0edeede816c8" SourceId="1" SourceUrl="http://localhost:51845/SLProductCutting.svc?xsd=xsd3" />
+    <MetadataFile FileName="SLProductCutting.disco" MetadataType="Disco" ID="03bb28ea-e63c-40f3-9a41-2db8973066bc" SourceId="1" SourceUrl="http://localhost:51845/SLProductCutting.svc?disco" />
+    <MetadataFile FileName="SLProductCutting2.xsd" MetadataType="Schema" ID="0613b440-fe4c-4a5d-ae10-a9e4c24c2410" SourceId="1" SourceUrl="http://localhost:51845/SLProductCutting.svc?xsd=xsd1" />
+    <MetadataFile FileName="SLProductCutting3.xsd" MetadataType="Schema" ID="d986ed9a-b93d-4822-b5df-7d19ba1a14e3" SourceId="1" SourceUrl="http://localhost:51845/SLProductCutting.svc?xsd=xsd2" />
+    <MetadataFile FileName="SLProductCutting.wsdl" MetadataType="Wsdl" ID="ff952b92-fab1-484d-aa8a-0cfe5ebe4c65" SourceId="1" SourceUrl="http://localhost:51845/SLProductCutting.svc?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

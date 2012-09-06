@@ -1,0 +1,164 @@
+﻿@model MVC3.Models.AllProductInfo
+           
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Cre-ate</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Product Variation</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.productList[0].Product_id)
+        </div>
+        <div class="editor-field">
+            <select name="products">
+            @for (int i = 0; i < Model.productList.Count; i++)
+            {
+                <option value=@i.ToString()>@Model.productList[i].product_name</option>
+            }
+            </select>
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.brandList[0].Brand_id)
+        </div>
+        <div class="editor-field">
+            <select name="brands">
+            @for (int i = 0; i < Model.brandList.Count; i++)
+            {
+                <option value=@i.ToString()>@Model.brandList[i].Brand_name</option>
+            }
+            </select>
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.colorList[0].ProductColor_id)
+        </div>
+        <div class="editor-field">
+            <select name="colors">
+            @for (int i = 0; i < Model.colorList.Count; i++)
+            {
+                <option value=@i.ToString()>@Model.colorList[i].ProductColor_name</option>
+            }
+            </select>
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.pvList[0].product_cutting_id)
+        </div>
+        <div class="editor-field">
+            <select name="cuttings">
+            @for (int i = 0; i < Model.cuttingList.Count; i++)
+            {
+                <option value=@i.ToString()>@Model.cuttingList[i].ProductCutting_name</option>
+            }
+            </select>
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.pvList[0].product_type_id)
+        </div>
+        <div class="editor-field">
+            <select name="types">
+            @for (int i = 0; i < Model.typeList.Count; i++)
+            {
+                <option value=@i.ToString()>@Model.typeList[i].ProductType_name</option>
+            }
+            </select>
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.pvList[0].sex)
+        </div>
+        <div class="editor-field">
+            <select name="sexes">
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="U">Undefined</option>
+            </select>
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.pvList[0].size)
+        </div>
+        <div class="editor-field">
+            <select name="sizes">
+                <option value="XS">XS</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+            </select>
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.pvList[0].stock)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.pvList[0].stock)
+            @Html.ValidationMessageFor(model => model.pvList[0].stock)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.pvList[0].price)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.pvList[0].price)
+            @Html.ValidationMessageFor(model => model.pvList[0].price)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.pvList[0].condition)
+        </div>
+        <div class="editor-field">
+            <select name="conditions">
+                <option value="a">Available</option>
+                <option value="d">Delete</option>
+            </select>
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+<script>
+    var product_id = "@Html.DisplayFor(model => model.pvList[0].product_id)";
+    var brand_id = "@Html.DisplayFor(model => model.pvList[0].brand_id)";
+    var product_color_id = "@Html.DisplayFor(model => model.pvList[0].product_color_id)";
+    var product_cutting_id = "@Html.DisplayFor(model => model.pvList[0].product_cutting_id)";
+    var product_type_id = "@Html.DisplayFor(model => model.pvList[0].product_type_id)";
+    var sex = "@Html.DisplayFor(model => model.pvList[0].sex)";
+    var size = "@Html.DisplayFor(model => model.pvList[0].size)";
+    var stock = "@Html.DisplayFor(model => model.pvList[0].stock)";
+    var price = "@Html.DisplayFor(model => model.pvList[0].price)";
+    var condition = "@Html.DisplayFor(model => model.pvList[0].condition)";
+
+    $(document).ready(function () {
+        $("select[name=products] option[value=" + product_id + "]").attr("selected", "selected");
+        $("select[name=brands] option[value=" + brand_id + "]").attr("selected", "selected");
+        $("select[name=colors] option[value=" + product_color_id + "]").attr("selected", "selected");
+        $("select[name=cutting] option[value=" + product_cutting_id + "]").attr("selected", "selected");
+        $("select[name=types] option[value=" + product_type_id + "]").attr("selected", "selected");
+        $("select[name=sexes] option[value=" + sex + "]").attr("selected", "selected");
+        $("select[name=sizes] option[value=" + size + "]").attr("selected", "selected");
+        //$("select[name=products] option[value=" + product_variation_id + "]").attr("selected", "selected");
+        //$("select[name=products] option[value=" + product_variation_id + "]").attr("selected", "selected");
+        $("select[name=conditions] option[value=" + condition + "]").attr("selected", "selected");
+    });
+</script>

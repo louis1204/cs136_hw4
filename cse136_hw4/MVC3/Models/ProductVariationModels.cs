@@ -64,7 +64,7 @@ namespace MVC3.Models
           SLProductVariation.ISLProductVariation SLProductVariation = new SLProductVariation.SLProductVariationClient();
 
           string[] errors = new string[0];
-          SLProductVariation.ProductVariationInfo[] ProductVariationsLoaded = SLProductVariation.ReadAllPVCondition('a', ref errors);
+          SLProductVariation.ProductVariationInfo[] ProductVariationsLoaded = SLProductVariation.ReadAllPV(ref errors);
 
           foreach (SLProductVariation.ProductVariationInfo s in ProductVariationsLoaded)
           {

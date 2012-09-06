@@ -65,16 +65,44 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BrandController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ProductVariationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\AllProductInfo.cs" />
+    <Compile Include="Models\BrandInfo.cs" />
+    <Compile Include="Models\BrandList.cs" />
+    <Compile Include="Models\BrandModels.cs" />
+    <Compile Include="Models\ProductColorInfo.cs" />
+    <Compile Include="Models\ProductColorList.cs" />
+    <Compile Include="Models\ProductColorModels.cs" />
+    <Compile Include="Models\ProductCuttingInfo.cs" />
+    <Compile Include="Models\ProductCuttingList.cs" />
+    <Compile Include="Models\ProductCuttingModels.cs" />
+    <Compile Include="Models\ProductInfo.cs" />
+    <Compile Include="Models\ProductList.cs" />
+    <Compile Include="Models\ProductModels.cs" />
+    <Compile Include="Models\ProductTypeInfo.cs" />
+    <Compile Include="Models\ProductTypeList.cs" />
+    <Compile Include="Models\ProductTypeModels.cs" />
     <Compile Include="Models\ProductVariationInfo.cs" />
     <Compile Include="Models\ProductVariationList.cs" />
     <Compile Include="Models\ProductVariationModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\SLProductColor\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\SLProductCutting\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\SLProductVariation\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -91,11 +119,6 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Service References\SLOrder\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
-    <Compile Include="Service References\SLProductCutting\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -150,6 +173,39 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\modernizr-1.7.js" />
     <Content Include="Scripts\modernizr-1.7.min.js" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Service References\SLProductColor\MVC3.SLProductColor.ProductColorInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SLProductColor\SLProductColor.wsdl" />
+    <None Include="Service References\SLProductColor\SLProductColor.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SLProductColor\SLProductColor1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SLProductColor\SLProductColor2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SLProductColor\SLProductColor3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SLProductCutting\MVC3.SLProductCutting.ProductCuttingInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SLProductCutting\SLProductCutting.wsdl" />
+    <None Include="Service References\SLProductCutting\SLProductCutting.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SLProductCutting\SLProductCutting1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SLProductCutting\SLProductCutting2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SLProductCutting\SLProductCutting3.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\SLProductVariation\MVC3.SLProductVariation.ProductVariationInfo.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -196,22 +252,6 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <None Include="Service References\SLProductCutting\MVC3.SLProductCutting.ProductColorInfo.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SLProductCutting\SLProductColor.wsdl" />
-    <None Include="Service References\SLProductCutting\SLProductColor.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\SLProductCutting\SLProductColor1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\SLProductCutting\SLProductColor2.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\SLProductCutting\SLProductColor3.xsd">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="Service References\SLProductType\MVC3.SLProductType.ProductTypeInfo.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -238,13 +278,6 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <None Include="Service References\SLProductCutting\SLProductColor.disco" />
-    <None Include="Service References\SLProductCutting\configuration91.svcinfo" />
-    <None Include="Service References\SLProductCutting\configuration.svcinfo" />
-    <None Include="Service References\SLProductCutting\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
     <None Include="Service References\SLProductType\SLProductType.disco" />
     <None Include="Service References\SLProductType\configuration91.svcinfo" />
     <None Include="Service References\SLProductType\configuration.svcinfo" />
@@ -256,6 +289,20 @@
     <None Include="Service References\SLProductVariation\configuration91.svcinfo" />
     <None Include="Service References\SLProductVariation\configuration.svcinfo" />
     <None Include="Service References\SLProductVariation\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\SLProductColor\SLProductColor.disco" />
+    <None Include="Service References\SLProductColor\configuration91.svcinfo" />
+    <None Include="Service References\SLProductColor\configuration.svcinfo" />
+    <None Include="Service References\SLProductColor\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\SLProductCutting\SLProductCutting.disco" />
+    <None Include="Service References\SLProductCutting\configuration91.svcinfo" />
+    <None Include="Service References\SLProductCutting\configuration.svcinfo" />
+    <None Include="Service References\SLProductCutting\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -333,6 +380,7 @@
     <Content Include="Views\ProductVariation\Index.cshtml" />
     <Content Include="Views\ProductVariation\Details.cshtml" />
     <Content Include="Views\ProductVariation\Edit.cshtml" />
+    <Content Include="Views\ProductVariation\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -344,11 +392,12 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\SLProductColor\" />
+    <WCFMetadataStorage Include="Service References\SLProductCutting\" />
     <WCFMetadataStorage Include="Service References\SLProductVariation\" />
     <WCFMetadataStorage Include="Service References\SLBrand\" />
     <WCFMetadataStorage Include="Service References\SLCustomer\" />
     <WCFMetadataStorage Include="Service References\SLOrder\" />
-    <WCFMetadataStorage Include="Service References\SLProductCutting\" />
     <WCFMetadataStorage Include="Service References\SLProductType\" />
     <WCFMetadataStorage Include="Service References\SLProduct\" />
   </ItemGroup>
