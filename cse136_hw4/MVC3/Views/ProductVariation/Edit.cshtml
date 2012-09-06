@@ -1,0 +1,113 @@
+﻿@model MVC3.Models.PLProductVariation
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>PLProductVariation</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.pv_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.pv_id)
+            @Html.ValidationMessageFor(model => model.pv_id)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.product_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.product_id)
+            @Html.ValidationMessageFor(model => model.product_id)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.brand_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.brand_id)
+            @Html.ValidationMessageFor(model => model.brand_id)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.product_color_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.product_color_id)
+            @Html.ValidationMessageFor(model => model.product_color_id)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.product_cutting_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.product_cutting_id)
+            @Html.ValidationMessageFor(model => model.product_cutting_id)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.product_type_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.product_type_id)
+            @Html.ValidationMessageFor(model => model.product_type_id)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.sex)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.sex)
+            @Html.ValidationMessageFor(model => model.sex)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.size)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.size)
+            @Html.ValidationMessageFor(model => model.size)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.stock)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.stock)
+            @Html.ValidationMessageFor(model => model.stock)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.price)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.price)
+            @Html.ValidationMessageFor(model => model.price)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.condition)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.condition)
+            @Html.ValidationMessageFor(model => model.condition)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

@@ -332,6 +332,7 @@
     </None>
     <Content Include="Views\ProductVariation\Index.cshtml" />
     <Content Include="Views\ProductVariation\Details.cshtml" />
+    <Content Include="Views\ProductVariation\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

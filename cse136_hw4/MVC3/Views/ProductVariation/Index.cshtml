@@ -5,7 +5,16 @@
 }
 
 <h2>Index</h2>
-
+<p>
+@Html.ActionLink("Get All", "GetAll", "ProductVariation")
+</p>
+<p>
+@Html.ActionLink("Get Available", "GetAvailable", "ProductVariation")
+</p>
+<p>
+@Html.ActionLink("Get Deleted", "GetDeleted", "ProductVariation")
+</p>
+ 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
@@ -83,9 +92,9 @@
             @Html.DisplayFor(modelItem => item.condition)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            @Html.ActionLink("Edit", "Edit", new { id = item.pv_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.pv_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.pv_id })
         </td>
     </tr>
 }

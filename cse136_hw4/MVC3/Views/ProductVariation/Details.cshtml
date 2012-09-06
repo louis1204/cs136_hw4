@@ -1,4 +1,4 @@
-﻿@model MVC3.Models.ProductVariationInfo
+﻿@model MVC3.Models.PLProductVariation
 
 @{
     ViewBag.Title = "Details";
@@ -11,7 +11,7 @@
 
     <div class="display-label">product_variation_id</div>
     <div class="display-field">
-        @Html.DisplayFor(model => model.product_variation_id)
+        @Html.DisplayFor(model => model.pv_id)
     </div>
 
     <div class="display-label">product_id</div>
@@ -21,7 +21,7 @@
 
     <div class="display-label">product_brand_id</div>
     <div class="display-field">
-        @Html.DisplayFor(model => model.product_brand_id)
+        @Html.DisplayFor(model => model.brand_id)
     </div>
 
     <div class="display-label">product_cutting_id</div>
@@ -65,6 +65,6 @@
     </div>
 </fieldset>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Edit", "Edit", new { id=Model.pv_id }) |
     @Html.ActionLink("Back to List", "Index")
 </p>

@@ -15,7 +15,7 @@ namespace MVC3.Models
 
             string[] errors = new string[0];
 
-            SLProductVariation.ProductVariationInfo[] validPV = SLPV.ReadAllPVCondition('a', ref errors);
+            SLProductVariation.ProductVariationInfo[] validPV = SLPV.ReadAllPV(ref errors);
 
             var e = from s in validPV select s;
 
@@ -25,8 +25,35 @@ namespace MVC3.Models
             }
         }
 
-        public List<SLProductVariation.ProductVariationInfo> GetPVList()
+        public List<SLProductVariation.ProductVariationInfo> GetPVList(char condition)
         {
+            List<SLProductVariation.ProductVariationInfo> theList = new List<SLProductVariation.ProductVariationInfo>();
+            if (condition == 'a')
+            {
+                for (int i = 0; i < pvList.Count; i++)
+                {
+                    if (pvList[i].condition == condition)
+                    {
+                        theList.Add(pvList[i]);
+                    }
+                }
+
+                return theList;
+            }
+
+            if (condition == 'd')
+            {
+                for (int i = 0; i < pvList.Count; i++)
+                {
+                    if (pvList[i].condition == condition)
+                    {
+                        theList.Add(pvList[i]);
+                    }
+                }
+
+                return theList;
+            }
+
             return pvList;
         }
 
