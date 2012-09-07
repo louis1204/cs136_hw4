@@ -15,18 +15,18 @@
     <fieldset>
         <legend>Product Variation</legend>
 
-            <input type="hidden" name="pv_id" value="@Html.LabelFor(model => model.pvList[0].pv_id)" />
+            <input type="hidden" name="pv_id" value="@Model.pvList[0].pv_id)" />
             <label>PV ID</label>
-            <label>@Model.pvList[0].pv_id</label>
+            <label> @Model.pvList[0].pv_id </label>
 
         <div class="editor-label">
             @Html.LabelFor(model => model.productList[0].Product_id)
         </div>
         <div class="editor-field" id="products">
             <select name="products">
-            @for (var i = 0; i < Model.productList.Count; i++)
+            @for (int i = 0; i < Model.productList.Count; i++)
             {
-                <option value=@i.ToString()>@Model.productList[i].product_name</option>
+                <option value="@i.ToString()">@Model.productList[i].product_name</option>
             }
             </select>
         </div>
@@ -38,7 +38,7 @@
             <select name="brands">
             @for (int i = 0; i < Model.brandList.Count; i++)
             {
-                <option value=@i.ToString()>@Model.brandList[i].Brand_name</option>
+                <option value="@i.ToString()">@Model.brandList[i].Brand_name</option>
             }
             </select>
         </div>
@@ -50,7 +50,7 @@
             <select name="colors">
             @for (int i = 0; i < Model.colorList.Count; i++)
             {
-                <option value=@i.ToString()>@Model.colorList[i].ProductColor_name</option>
+                <option value="@i.ToString()">@Model.colorList[i].ProductColor_name</option>
             }
             </select>
         </div>
@@ -62,7 +62,7 @@
             <select name="cuttings">
             @for (int i = 0; i < Model.cuttingList.Count; i++)
             {
-                <option value=@i.ToString()>@Model.cuttingList[i].ProductCutting_name</option>
+                <option value="@i.ToString()">@Model.cuttingList[i].ProductCutting_name</option>
             }
             </select>
         </div>
@@ -74,7 +74,7 @@
             <select name="types">
             @for (int i = 0; i < Model.typeList.Count; i++)
             {
-                <option value=@i.ToString()>@Model.typeList[i].ProductType_name</option>
+                <option value="@i.ToString()">@Model.typeList[i].ProductType_name</option>
             }
             </select>
         </div>
@@ -95,7 +95,7 @@
         </div>
         <div class="editor-field" id="sizes">
             <select name="sizes">
-                <option value="XS">XS</option>s
+                <option value="XS">XS</option>
                 <option value="S">S</option>
                 <option value="M">M</option>
                 <option value="L">L</option>
