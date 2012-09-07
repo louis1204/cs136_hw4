@@ -75,7 +75,7 @@ namespace MVC3.Controllers
 
         public ActionResult Edit(int id)
         {
-            SLProductVariation.ProductVariationInfo pv = this.pvList.GetPVDetail(id - 1);
+            SLProductVariation.ProductVariationInfo pv = this.pvList.GetPVDetail(id);
 
             PLProductVariation plpv = ProductVariationClientService.DTO_to_PL(pv);
 
@@ -92,7 +92,7 @@ namespace MVC3.Controllers
             try
             {
                 PLProductVariation plpv = new PLProductVariation();
-                plpv.pv_id = 10;
+                plpv.pv_id = int.Parse(collection["pv_id"]);
                 plpv.product_id = int.Parse(collection["products"]);
                 plpv.brand_id = int.Parse(collection["brands"]);
                 plpv.product_color_id = int.Parse(collection["colors"]);
@@ -110,7 +110,9 @@ namespace MVC3.Controllers
             }
             catch (Exception e)
             {
-                return View();
+                System.Diagnostics.Debug.WriteLine("HERE IS THE ERROR: " + e.ToString());
+                AllProductInfo api = new AllProductInfo();
+                return View("Index", api);
             }
         }
 
